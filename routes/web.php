@@ -6,7 +6,7 @@ Route::get('/app', function () {
    return view('components.app');
 });
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('components.home');
 });
 

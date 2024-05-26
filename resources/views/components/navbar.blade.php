@@ -21,7 +21,7 @@
                 </div>
                 <div class="order-2 hidden md:block">
                     <ul class="flex gap-32 mt-12 mx-12 lg:mt-12">
-                        <li class="text-green font-bold text-xl"><a href="/home">Home</a></li>
+                        <li class="text-green font-bold text-xl"><a href="/">Home</a></li>
                         <li class="text-green font-bold text-xl"><a href="/menu">Menu</a></li>
                         <li class="text-green font-bold text-xl"><a href="/contact">Contact</a></li>
                     </ul>
@@ -72,9 +72,6 @@
             </div>
         </div>
     </nav>
-
-
-
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 </body>
 </html>

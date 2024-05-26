@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite('resources/css/app.css')
 
-    <title>Document</title>
+    <title>Menu</title>
 </head>
-<body class="bg-yellow">
+<body class="bg-yellow min-h-screen">
 <x-navbar />
     <div>
         <div>
@@ -28,12 +28,12 @@
                         Buy now
                     </button>
                 </a>
-                <img src="{{ asset('storage/images/orangejuicemenu.png') }}" alt="ellipse" class="size-fit lg:size-10/12 -mt-80 sm:-mt-96 md:-mt-auto lg:-mt-auto -ml-8 lg:ml-36 px-4 py-2 hover:underline mb-30"/>
+                <img src="{{ asset('storage/images/orangejuicemenu.png') }}" alt="ellipse" class="lg:size-7/12 -mt-80 sm:-mt-64 md:-mt-96 lg:-mt-96 -ml-8 lg:ml-auto lg:mr-8 px-4 py-2 hover:underline"/>
             </div>
         </div>
         <!-- Menu -->
-        <div class="items-center justify-center">
-            <div class="text-center justify-center text-4xl font-bold text-hijau capitalize -mt-20 sm:-mt-72 md:-mt-80 lg:-mt-96">
+        <div class="items-center justify-center ">
+            <div class="text-center justify-center text-4xl font-bold text-hijau capitalize -mt-20 sm:-mt-72 md:-mt-80 lg:mt-8">
                 Menu
             </div>
                 <div class="flex gap-9 md:gap-36 lg:gap-16 items-center justify-center mt-20">

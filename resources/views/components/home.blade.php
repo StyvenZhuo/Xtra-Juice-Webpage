@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     @vite('resources/css/app.css')
 </head>
-<body class="bg-yellow">
+<body class="bg-yellow min-h-screen">
 <x-navbar />
     <div>
         <div class="flex flex-col items-left ml-24 sm:ml-28 lg:ml-48 mt-12 sm:mt-16 lg:mt-24">

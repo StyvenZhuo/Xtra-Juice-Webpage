@@ -14,7 +14,6 @@
         <div class="container mx-auto mt-auto items-center">
             <div class="flex lg:gap-72 items-center justify-center justify-between">
                 <img src="{{ asset('storage/images/Logo.png') }}" alt="Logo" class="size-40 order-1 lg:ml-40 " />
-                <img src="{{ asset('storage/images/Logoadmin.png') }}" alt="Logo" class="size-16 order-4 ml-40 md:-ml-16 lg:mr-40 " />
                 <div class="lg:hidden">
                     <button @click="navOpen = ! navOpen" class="text-green flex justify-center flex-col size-24 ml-8">
                     <ion-icon name="menu-outline"></ion-icon>
@@ -24,6 +23,7 @@
                         <li class="text-green font-bold text-xl"><a href="/">Home</a></li>
                         <li class="text-green font-bold text-xl"><a href="/menu">Menu</a></li>
                         <li class="text-green font-bold text-xl"><a href="/contact">Contact</a></li>
+                        <li><a href="/"><img src="{{ asset('storage/images/Logoadmin.png') }}" alt="Logo" class="size-16 order-4"/></a></li>
                     </ul>
                 </div>
             </div>

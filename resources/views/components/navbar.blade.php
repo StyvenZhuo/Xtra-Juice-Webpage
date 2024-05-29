@@ -12,18 +12,18 @@
 <body>
     <nav class="py-9 px-4 bg-yellow" x-data="{navOpen : true}">
         <div class="container mx-auto mt-auto items-center">
-            <div class="flex lg:gap-72 items-center justify-center justify-between">
+            <div class="flex gap-32 justify-center">
                 <img src="{{ asset('storage/images/Logo.png') }}" alt="Logo" class="size-40 order-1 lg:ml-40 " />
                 <div class="lg:hidden">
                     <button @click="navOpen = ! navOpen" class="text-green flex justify-center flex-col size-24 ml-8">
                     <ion-icon name="menu-outline"></ion-icon>
                 </div>
-                <div class="order-2 hidden md:block">
+                <div class="order-2 hidden sm:block justify">
                     <ul class="flex gap-32 mt-12 mx-12 lg:mt-12">
                         <li class="text-green font-bold text-xl"><a href="/">Home</a></li>
                         <li class="text-green font-bold text-xl"><a href="/menu">Menu</a></li>
                         <li class="text-green font-bold text-xl"><a href="/contact">Contact</a></li>
-                        <li><a href="/"><img src="{{ asset('storage/images/Logoadmin.png') }}" alt="Logo" class="size-16 order-4"/></a></li>
+                        <li><a href="/"><img src="{{ asset('storage/images/Logoadmin.png') }}" alt="Logo" class="size-12"/></a></li>
                     </ul>
                 </div>
             </div>

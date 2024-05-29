@@ -8,29 +8,36 @@
     <title>Menu</title>
 </head>
 <body class="bg-yellow min-h-screen">
-<x-navbar />
-    <div>
-        <div>
-            <div class="flex flex-col items-left ml-24 sm:ml-28 lg:ml-48 mt-12 sm:mt-16 lg:mt-24">
-                <div class="flex flex-col items-left">
-                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-hijau">Try Our Best Seller</h1>
-                    <p class="text-4xl sm:text-5xl lg:text-6xl mt-2 font-bold text-hijau">and taste the hype !</p>
+    <!-- nav -->
+    <header>
+        <x-navbar />
+    </header>
+
+    <!-- 1 -->
+    <section>
+        <div class="flex lg:mx-24">
+            <div class="mt-16 ml-16 sm:ml-32 md:ml-48 xl:ml-60">
+                <div>
+                    <h1 class="text-xl md:text-2xl font-bold text-hijau">Try Our Best Seller</h1>
+                    <h1 class="text-xl md:text-2xl font-bold text-hijau">and taste the hype !</h1>
                 </div>
-                <div class="mt-5 text-hijau font-semibold text-base text-xl sm:text-2xl md:text-2xl lg:text-3xl">
-                    <p>The best one among the menus in the shop ! </p>
-                    <p>Juiced from the fruit freshly handpicked by</p>
-                    <p>the owner himself.</p>
+                <div class="mt-4">
+                    <p class="text-md md:text-xl text-hijau font-semibold">The best one among the menus in the shop !</p>
+                    <p class="text-md md:text-xl text-hijau font-semibold">Juiced from the fruit freshly handpicked by the owner himself.</p>
                 </div>
-            </div>
-            <div class="flex">
-                <a href="">
-                    <button class="ml-20 sm:ml-48 lg:ml-55 mt-7 border text-xl border-b-5 border-r-5 b-600 rounded-full border-4 ring ring-hijau bg-hijau text-white font-semibold box-border h-12 w-36 items-left lg:ml-48">
-                        Buy now
+                <a href=""></a>
+                    <button class="mt-5 border text-md md:text-xl border-b-5 border-r-5 b-600 rounded-full border-4 ring ring-lime-600 bg-lime-600 text-white box-border h-8 w-24 md:h-12 md:w-36">
+                        Explore
                     </button>
                 </a>
-                <img src="{{ asset('storage/images/orangejuicemenu.png') }}" alt="ellipse" class="lg:size-7/12 -mt-80 sm:-mt-64 md:-mt-96 lg:-mt-96 -ml-8 lg:ml-auto lg:mr-8 px-4 py-2 hover:underline"/>
+            </div>
+            <div class="relative">
+            <!-- BUTUH PERBAIKAN -->
+                <img src="{{ asset('storage/images/orangejuicemenu.png') }}" alt="" class="size-10/12  mt-2 lg:mt-2 object-cover">
             </div>
         </div>
+    </section>
+
         <!-- Menu -->
         <div class="items-center justify-center ">
             <div class="text-center justify-center text-4xl font-bold text-hijau capitalize -mt-20 sm:-mt-72 md:-mt-80 lg:mt-8">

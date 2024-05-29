@@ -10,7 +10,7 @@
     <title>Xtra-Juice</title>
 </head>
 <body>
-    <nav class="py-9 px-4 bg-yellow" x-data="{navOpen : true}">
+    <nav class="py-9 px-4 bg-yellow right-0 left-0" x-data="{navOpen : true}">
         <div class="container mx-auto mt-auto items-center">
             <div class="flex gap-32 justify-center">
                 <img src="{{ asset('storage/images/Logo.png') }}" alt="Logo" class="size-40 order-1 lg:ml-40 " />

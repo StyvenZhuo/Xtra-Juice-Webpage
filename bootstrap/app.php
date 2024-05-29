@@ -16,3 +16,11 @@ return Application::configure(basePath: dirname(__DIR__))
     ->withExceptions(function (Exceptions $exceptions) {
         //
     })->create();
+
+
+/*class User extends Model {
+    protected $routeMiddleware = [
+        'user-access' => \App\Http\Middleware\UserAccess::class,
+            ];
+} */
+    

@@ -23,7 +23,7 @@
                         <li class="text-green font-bold text-xl"><a href="/">Home</a></li>
                         <li class="text-green font-bold text-xl"><a href="/menu">Menu</a></li>
                         <li class="text-green font-bold text-xl"><a href="/contact">Contact</a></li>
-                        <li><a href="/"><img src="{{ asset('storage/images/Logoadmin.png') }}" alt="Logo" class="size-16 order-4"/></a></li>
+                        <li><a href="{{ route('login') }}"><img src="{{ asset('storage/images/Logoadmin.png') }}" alt="Logo" class="size-16 order-4"/></a></li>
                     </ul>
                 </div>
             </div>

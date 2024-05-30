@@ -4,7 +4,8 @@ namespace App\Http\Controllers;
  
 use Illuminate\Http\Request;
 use App\Models\User;
-use Illuminate\Support\Facades\Auth;
+use App\Models\Reviews;
+use Illuminate\Support\Facades\Auth; 
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\ValidationException;
@@ -34,7 +35,22 @@ class AuthController extends Controller
  
         return redirect()->route('login');
     }
- 
+    
+    public function reviewSave(Request $request){
+        Validator::make($request->all(), [
+            'name' => 'required',
+            'email' => 'required|email',
+            'review' => 'required'
+        ])->validate();
+        
+        Reviews::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'review' => $request->review,
+        ]);
+        return redirect('/contact');
+    }
+
     public function login()
     {
         return view('auth/login');

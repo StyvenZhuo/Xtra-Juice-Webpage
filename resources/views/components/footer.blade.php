@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Footer</title>
 </head>
 <body>
 <footer class="bg-green text-white py-4 px-4 mt-72 right-0 left-0">
@@ -19,7 +19,7 @@
     </div>
     <div class="flex mr-24">
       <a href="https://wa.me/082387535653/?text=urlencodedtext" class="text-white hover:underline"><img src="{{ asset('storage/images/whatsappfooter.png') }}" alt="ellipse" class="size-20 lg:size-24 -mt-72 sm:-mt-64 md:-mt-96 lg:mt-4 ml-8 lg:ml-44 px-4 py-2 hover:underline"/></a>
-      <a href="https://www.instagram.com/styvenzhuo_/" class="text-white hover:underline"><img src="{{ asset('storage/images/instagramfooter.png') }}" alt="ellipse" class="size-20 lg:size-24 -mt-72 sm:-mt-64 md:-mt-96 lg:mt-4 lg:ml-8 px-4 py-2 hover:underline"/></a>
+      <a href="https://www.instagram.com/aming_kho/" class="text-white hover:underline"><img src="{{ asset('storage/images/instagramfooter.png') }}" alt="ellipse" class="size-20 lg:size-24 -mt-72 sm:-mt-64 md:-mt-96 lg:mt-4 lg:ml-8 px-4 py-2 hover:underline"/></a>
     </div>
   </div>
 </footer> 

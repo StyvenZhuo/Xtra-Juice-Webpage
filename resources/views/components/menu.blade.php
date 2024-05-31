@@ -26,7 +26,7 @@
                     <p class="text-md md:text-xl text-hijau font-semibold">Juiced from the fruit freshly handpicked by the owner himself.</p>
                 </div>
                 <a href=""></a>
-                    <button class="mt-5 border text-md md:text-xl border-b-5 border-r-5 b-600 rounded-full border-4 ring ring-lime-600 bg-lime-600 text-white box-border h-8 w-24 md:h-12 md:w-36">
+                    <button class="mt-5 text-md md:text-xl border-b-5 border-r-5 b-600 rounded-full border-4 ring ring-lime-600 bg-lime-600 text-white box-border h-8 w-24 md:h-12 md:w-36">
                         Explore
                     </button>
                 </a>

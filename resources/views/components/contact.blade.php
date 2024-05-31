@@ -14,7 +14,7 @@
             <div class="flex flex-col items-left">
                 <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-hijau">Contact Us</h1>
             </div>
-            <div class="mt-16 text-hijau font-semibold text-base text-xl sm:text-2xl md:text-2xl lg:text-3xl">
+            <div class="mt-16 text-hijau font-semibold text-xl sm:text-2xl md:text-2xl lg:text-3xl">
                 <p>+62-1234-5678-910 </p>
                 <p>Baloi-Sei Ladi, Jl. Gajah Mada, Tiban Indah, Kec.</p>
                 <p>Sekupang, Kota Batam, Kepulauan Riau 29426</p>
@@ -27,7 +27,7 @@
         </div>
     </div>
     <!-- 2 -->
-    <div class="mt-32 text-hijau font-semibold text-base text-xl sm:text-2xl md:text-2xl lg:text-3xl ml-24 sm:ml-28 lg:ml-48">
+    <div class="mt-32 text-hijau font-semibold text-xl sm:text-2xl md:text-2xl lg:text-3xl ml-24 sm:ml-28 lg:ml-48">
         <p>Your opinion is important to us !</p>
     </div>
     <div class="flex items-center justify-center min-h-screen">
@@ -46,7 +46,7 @@
                 <textarea class="shadow appearance-none border border-green-500 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="review" name="review" rows="4" placeholder="Your Review"></textarea>
             </div>
             <div class="flex items-center justify-end">
-                <button class="ring-lime-600 bg-lime-600 text-white rounded-full font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+                <button class="ring-lime-600 bg-lime-600 text-white rounded-full font-bold py-2 px-4 focus:outline-none focus:shadow-outline" type="submit">
                     Submit
                 </button>
             </div>

@@ -68,8 +68,8 @@
             x-transition:leave="transition ease-in duration-300"
             x-transition:leave-start="opacity-100 scale-100"
             x-transition:leave-end="opacity-0 scale-90">
-                <button class="grow bg-white px-8 px-4 font-bold text-green rounded-full text-sm">Login</button>
-                <button class="grow bg-green px-8 px-4 font-bold text-white rounded-full text-sm">Sign Up</button>
+                <button class="grow bg-white px-8 font-bold text-green rounded-full text-sm">Login</button>
+                <button class="grow bg-green px-8 font-bold text-white rounded-full text-sm">Sign Up</button>
             </div>
         </div>
     </nav>

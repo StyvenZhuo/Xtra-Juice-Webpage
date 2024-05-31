@@ -9,8 +9,8 @@
 <body class="bg-yellow min-h-screen">
 <x-navbar />
     <!-- 1 -->
-    <div>
-        <div class="flex flex-col items-left ml-24 sm:ml-28 lg:ml-48 mt-12 sm:mt-16 lg:mt-24">
+    <div class="flex flex-col">
+        <div class="items-left ml-24 sm:ml-28 lg:ml-48 mt-12 sm:mt-16 lg:mt-24">
             <div class="flex flex-col items-left">
                 <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-hijau">Contact Us</h1>
             </div>
@@ -21,8 +21,8 @@
             </div>
         </div>
         <div class="flex gap-12">
-            <img src="{{ asset('storage/images/whatsapp.png') }}" alt="ellipse" class="size-20 lg:size-20 -mt-72 sm:-mt-64 md:-mt-96 lg:mt-4 ml-8 lg:ml-44 px-4 py-2 hover:underline"/>
-            <img src="{{ asset('storage/images/instagram.png') }}" alt="ellipse" class="size-20 lg:size-20 -mt-72 sm:-mt-64 md:-mt-96 lg:mt-4 ml-8 lg:-ml-16 px-4 py-2 hover:underline"/>
+            <img src="{{ asset('storage/images/whatsapp.png') }}" alt="ellipse" class="size-20 lg:h-16 -mt-72 sm:-mt-64 md:-mt-96 lg:mt-4 ml-8 lg:ml-44 px-4 py-2 hover:underline"/>
+            <img src="{{ asset('storage/images/instagram.png') }}" alt="ellipse" class="size-20 lg:h-16 -mt-72 sm:-mt-64 md:-mt-96 lg:mt-4 ml-8 lg:-ml-16 px-4 py-2 hover:underline"/>
             <img src="{{ asset('storage/images/contactxtra.png') }}" alt="ellipse" class="size-4/12 lg:size-4/12 -mt-72 sm:-mt-64 md:-mt-96 lg:-mt-72 -ml-8 lg:ml-auto lg:mr-36 px-4 py-2 hover:underline"/>
         </div>
     </div>
@@ -31,11 +31,11 @@
         <p>Your opinion is important to us !</p>
     </div>
     <div class="flex items-center justify-center min-h-screen">
-        <form action="{{ route('review.save') }}" method="POST" class="mt-20 mr-36 w-full max-w-lg bg-white p-2 border border-gray-300 rounded-lg items-center">
+        <form action="{{ route('review.save') }}" method="POST" class="mt-20 mr-36 w-full max-w-lg bg-white p-2 rounded-lg items-center">
             @csrf
             <div class="mb-4">
-                <label class="block text-gray-700 text-lg font-bold mb-2" for="name">Name</label>
-                <input class="shadow appearance-none border border-green-500 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" name="name" type="text" placeholder="Your Name">
+                <label class="block text-gray-700 text-2xl text-hijau font-bold mb-2" for="name">Name</label>
+                <input class="shadow appearance-none border border-green-500 rounded w-full py-2 px-3 text-gray-700 leading-tight  focus:outline-none focus:shadow-outline" id="name" name="name" type="text" placeholder="Your Name">
             </div>
             <div class="mb-4">
                 <label class="block text-gray-700 text-lg font-bold mb-2" for="email">Email</label>

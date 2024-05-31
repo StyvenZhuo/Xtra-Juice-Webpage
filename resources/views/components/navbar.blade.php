@@ -10,21 +10,31 @@
     <title>Xtra-Juice</title>
 </head>
 <body>
-    <nav class="py-9 px-4 bg-yellow right-0 left-0" x-data="{navOpen : true}">
+    <nav class="py-9 px-4 bg-yellow right-0 left-0 justify-between" x-data="{navOpen : true}">
         <div class="container mx-auto mt-auto items-center">
-            <div class="flex gap-32 justify-center">
-                <img src="{{ asset('storage/images/Logo.png') }}" alt="Logo" class="size-40 order-1 lg:ml-40 " />
+            <div class="flex gap-36 sm:gap-4 md:gap-8 lg:gap-36 justify-center">
+                <img src="{{ asset('storage/images/Logonew.png') }}" alt="Logo" class="h-36 mt-5 order-1 " />
                 <div class="lg:hidden">
                     <button @click="navOpen = ! navOpen" class="text-green flex justify-center flex-col size-24 ml-8">
                     <ion-icon name="menu-outline"></ion-icon>
                 </div>
                 <div class="order-2 hidden sm:block justify">
-                    <ul class="flex gap-32 mt-12 mx-12 lg:mt-12">
-                        <li class="text-green font-bold text-xl"><a href="/">Home</a></li>
-                        <li class="text-green font-bold text-xl"><a href="/menu">Menu</a></li>
-                        <li class="text-green font-bold text-xl"><a href="/contact">Contact</a></li>
-                        <li><a href="{{ route('login') }}"><img src="{{ asset('storage/images/Logoadmin.png') }}" alt="Logo" class="size-16 order-4"/></a></li>
-
+                    <ul class="flex sm:gap-4 md:gap-20 lg:gap-44 mt-12 mx-12 lg:mt-12">
+                        <li><button class="mt-5 border text-md md:text-xl border-b-5 border-r-5 b-600 rounded-full border-4 bg-hijau text-white box-border h-8 w-24 md:h-12 md:w-36">
+                            <a href="/">Home </a>
+                            </button>
+                        </li>
+                        <li><button class="mt-5 border text-md md:text-xl border-b-5 border-r-5 b-600 rounded-full border-4 bg-hijau text-white box-border h-8 w-24 md:h-12 md:w-36">
+                            <a href="/menu">Menu </a>
+                            </button>
+                        </li>
+                        <li><button class="mt-5 border text-md md:text-xl border-b-5 border-r-5 b-600 rounded-full border-4 bg-hijau text-white box-border h-8 w-24 md:h-12 md:w-36">
+                            <a href="/contact">Contact </a>
+                            </button>
+                        </li>
+                        <li>
+                            <a href="{{ route('login') }}"><img src="{{ asset('storage/images/Logoadmin.png') }}" alt="Logo" class="md:h-24 h-16 order-4 sm:-mt-4 md:-mt-6"/></a>
+                        </li>
                     </ul>
                 </div>
             </div>

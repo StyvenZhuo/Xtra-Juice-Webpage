@@ -10,36 +10,36 @@
     <title>Xtra-Juice</title>
 </head>
 <body>
-    <nav class="py-9 px-4 bg-yellow right-0 left-0 justify-between" x-data="{navOpen : true}">
-        <div class="container mx-auto mt-auto items-center">
-            <div class="flex gap-36 sm:gap-4 md:gap-8 lg:gap-36 justify-center">
+    <nav class="container py-5 px-5 bg-yellow right-0 left-0 justify-between mx-auto" x-data="{navOpen : true}">
+        <div class="container mx-auto mt-auto">
+            <div class="flex gap-36 sm:gap-0 md:gap-32 lg:gap-36 justify-center">
                 <img src="{{ asset('storage/images/Logonew.png') }}" alt="Logo" class="h-36 mt-5 order-1 " />
-                <div class="lg:hidden">
+                <div class="md:hidden">
                     <button @click="navOpen = ! navOpen" class="text-green flex justify-center flex-col size-24 ml-8">
                     <ion-icon name="menu-outline"></ion-icon>
                 </div>
                 <div class="order-2 hidden sm:block justify">
-                    <ul class="flex sm:gap-4 md:gap-20 lg:gap-44 mt-12 mx-12 lg:mt-12">
-                        <li><button class="mt-5 border text-md md:text-xl border-b-5 border-r-5 b-600 rounded-full border-4 bg-hijau text-white box-border h-8 w-24 md:h-12 md:w-36">
+                    <ul class="flex sm:gap-16 md:gap-20 lg:gap-44 mt-12 lg:mt-12 md:mx-auto">
+                        <li><button class="mt-5 border text-md md:text-md font-bold tracking-wider border-b-5 border-r-5 b-600 rounded-full border-4 bg-hijau text-white box-border h-8 w-20 md:h-12 md:w-28">
                             <a href="/">Home </a>
                             </button>
                         </li>
-                        <li><button class="mt-5 border text-md md:text-xl border-b-5 border-r-5 b-600 rounded-full border-4 bg-hijau text-white box-border h-8 w-24 md:h-12 md:w-36">
+                        <li><button class="mt-5 border text-sm md:text-md font-bold tracking-wider border-b-5 border-r-5 b-600 rounded-full border-4 bg-hijau text-white box-border h-8 w-20 md:h-12 md:w-28">
                             <a href="/menu">Menu </a>
                             </button>
                         </li>
-                        <li><button class="mt-5 border text-md md:text-xl border-b-5 border-r-5 b-600 rounded-full border-4 bg-hijau text-white box-border h-8 w-24 md:h-12 md:w-36">
+                        <li><button class="mt-5 border text-sm md:text-md font-bold tracking-wider border-b-5 border-r-5 b-600 rounded-full border-4 bg-hijau text-white box-border h-8 w-20 md:h-12 md:w-28">
                             <a href="/contact">Contact </a>
                             </button>
                         </li>
                         <li>
-                            <a href="{{ route('login') }}"><img src="{{ asset('storage/images/Logoadmin.png') }}" alt="Logo" class="md:h-24 h-16 order-4 sm:-mt-4 md:-mt-6"/></a>
+                            <a href="{{ route('login') }}"><img src="{{ asset('storage/images/Logoadmin.png') }}" alt="Logo" class="h-16 order-4 sm:-mt-2 md:-mt-0"/></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div x-show="navOpen" x-data="{open : false}" class="fixed bottom-0 right-0 left-0 bg-white p-4 border lg:hidden"
+        <div x-show="navOpen" x-data="{open : false}" class="fixed bottom-0 right-0 left-0 bg-white p-4 border md:hidden"
             x-transition:enter="transition ease-out duration-300"
             x-transition:enter-start="opacity-0 scale-90"
             x-transition:enter-end="opacity-100 scale-100"
@@ -50,7 +50,7 @@
             <ul class="flex justify-between">
                 <li>
                     <button class="text-green flex justify-center flex-col items-center text-base gap-1 text-bold">
-                        <ion-icon name="home-outline" class="text-2xl"></ion-icon>
+                        <ion-icon name="home-outline" class="text-xl"></ion-icon>
                         <span class="text-base font-bold">Home</span>
                 </li>
                 <li>

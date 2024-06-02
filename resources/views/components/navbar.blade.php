@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     <!-- TailwindCSS -->
     @vite('resources/css/app.css')
     <!-- AlpineJS -->
@@ -20,15 +21,15 @@
                 </div>
                 <div class="order-2 hidden sm:block justify">
                     <ul class="flex sm:gap-16 md:gap-20 lg:gap-44 mt-12 lg:mt-12 md:mx-auto">
-                        <li><button class="mt-5 border text-md md:text-md font-bold tracking-wider border-b-5 border-r-5 b-600 rounded-full border-4 bg-hijau text-white box-border h-8 w-20 md:h-12 md:w-28">
+                        <li><button class="mt-5 border text-md md:text-md font-bold tracking-wider border-b-5 border-r-5 b-600 rounded-full border-4 bg-hijau text-white box-border h-8 w-20 md:h-12 md:w-28 border-transparent animate-border text-blue-500 font-semibold rounded-full hover:bg-blue-100 transition duration-300">
                             <a href="/">Home </a>
                             </button>
                         </li>
-                        <li><button class="mt-5 border text-sm md:text-md font-bold tracking-wider border-b-5 border-r-5 b-600 rounded-full border-4 bg-hijau text-white box-border h-8 w-20 md:h-12 md:w-28">
+                        <li><button class="mt-5 border text-sm md:text-md font-bold tracking-wider border-b-5 border-r-5 b-600 rounded-full border-4 bg-hijau text-white box-border h-8 w-20 md:h-12 md:w-28 border-transparent animate-border text-blue-500 font-semibold rounded-full hover:bg-blue-100 transition duration-300">
                             <a href="/menu">Menu </a>
                             </button>
                         </li>
-                        <li><button class="mt-5 border text-sm md:text-md font-bold tracking-wider border-b-5 border-r-5 b-600 rounded-full border-4 bg-hijau text-white box-border h-8 w-20 md:h-12 md:w-28">
+                        <li><button class="mt-5 border text-sm md:text-md font-bold tracking-wider border-b-5 border-r-5 b-600 rounded-full border-4 bg-hijau text-white box-border h-8 w-20 md:h-12 md:w-28 border-transparent animate-border text-blue-500 font-semibold rounded-full hover:bg-blue-100 transition duration-300">
                             <a href="/contact">Contact </a>
                             </button>
                         </li>
@@ -83,6 +84,7 @@
             </div>
         </div>
     </nav>
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="{{ mix('js/app.js') }}"></script>
 </body>
 </html>

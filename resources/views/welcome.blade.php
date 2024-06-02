@@ -6,6 +6,7 @@
     <title>Xtra Juice</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     @vite('resources/css/app.css')
+    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 </head>
 <body class="bg-yellow">
     <!-- nav -->
@@ -14,31 +15,30 @@
     </header>
     <div class="w-full max-w-screen-lg mx-auto">
         <!-- 1 -->
-        <section class="container ">
+        <section class="container flex">
             <div class="flex">
-                <div class="mt-28 ml-16 sm:ml-32 md:ml-48 xl:mx-12">
+                <div class="mt-28 ml-8 sm:ml-32 md:ml-48 xl:mx-12">
                     <div>
-                        <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold font-sans text-hijau tracking-wider">Where Taste and Health</h1>
-                        <h1 class="text-2xl sm:text-3xl md:text-4xl mt-1 font-bold text-hijau tracking-wider">Blend Perfectly</h1>
+                        <h1 class="text-xl sm:text-3xl md:text-4xl font-bold font-sans text-hijau tracking-wider">Where Taste and Health</h1>
+                        <h1 class="text-xl sm:text-3xl md:text-4xl mt-1 font-bold text-hijau tracking-wider">Blend Perfectly</h1>
                     </div>
                     <div class="mt-2">
                         <p class="text-md md:text-xl text-hijau font-semibold tracking-widen">Elevate your wellbeing with every sip, as our handpicked fruits, harmoniously combined to create a deliciously healthy treat for your enjoyment.</p>
                     </div>
                     <a href=""></a>
-                        <button class="mt-5 border text-md md:text-xl border-b-5 border-r-5 b-600 rounded-full border-4 ring ring-hijau bg-hijau text-white box-border h-10 w-24 md:h-12 md:w-36">
+                        <button class="tracking-wider mt-5 border text-md md:text-xl border-b-5 border-r-5 b-600 rounded-full border-4 ring ring-hijau bg-hijau text-white box-border h-10 w-24 md:h-12 md:w-36 border-transparent animate-border text-blue-500 font-semibold rounded-lg hover:bg-blue-100 transition duration-300">
                             Explore
                         </button> 
                     </a>
                 </div>
-                <div class="">
-                    <!-- BUTUH PERBAIKAN 
-                    <img src="{{ asset('storage/images/orangebg.png') }}" alt="" class="size-11/12"> -->
-                </div>
+            </div>
+            <div class="mt-24 sm:mx-16 md:mx-8 md:mr-12">
+                <img src="{{ asset('storage/images/orangebg.png') }}" alt="ellipse" class="h-96 sm:h-72 md:h-96  hover:underline"/>
             </div>
         </section>
 
         <!-- 2 -->
-        <section class="container mt-60 mx-auto">
+        <section class="container mt-60 xl:mt-96 mx-auto">
             <div class="text-center justify-center text-4xl font-bold text-hijau tracking-widen">
                 <h1 class="">Best Seller</h1>
             </div>
@@ -129,5 +129,6 @@
     <footer>
         <x-footer />
     </footer>
+    <script src="{{ mix('js/app.js') }}"></script>
 </body>
 </html>

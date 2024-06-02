@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes border-animation {
+    0% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #FFFCE5; /* Warna border di tengah animasi */
+    }
+    100% {
+      border-color: transparent;
+    }
+  }
+  
+  .animate-border {
+    animation: border-animation 3s infinite;
+  }

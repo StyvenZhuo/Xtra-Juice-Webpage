@@ -6,7 +6,7 @@
   <title>Footer</title>
 </head>
 <body>
-<footer class="container md:py-3 md:pb-6 sm:mb-0 bg-green right-0 left-0 bottom-0">
+<footer class="container w-full mx-auto md:py-3 md:pb-6 sm:mb-0 bg-green right-0 left-0 bottom-0">
   <div class="flex flex-col md:flex-row items-center justify-between mt-2">
     <div class="flex text-center items-center md:text-left mx-5 sm:mx-8 lg:mx-40 mb-20 sm:mb-0">
       <a href="https://www.google.com/maps/place/Universitas+Internasional+Batam/@1.1195485,104.000468,17z/data=!3m1!4b1!4m6!3m5!1s0x31d98be09646b351:0x36a826082690c786!8m2!3d1.1195431!4d104.0030429!16s%2Fg%2F120jxbjn?entry=ttu">

@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     @vite('resources/css/app.css')
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+    <!-- AlpineJS -->
+    <script src="//unpkg.com/alpinejs" defer></script>
 </head>
 <body class="bg-yellow">
     <!-- nav -->
@@ -91,55 +93,53 @@
                 <div class="text-center justify-center text-4xl font-bold text-hijau tracking-wider">
                     <h1 class="">Testimonial</h1>
                 </div>
-                <div class="container mx-auto mt-10">
-                    <div class="relative overflow-hidden">
-                        <div class="carousel flex transition-transform duration-300 ease-in-out justify-center">
-                            <!-- Card 1 -->
-                            <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-col carousel-item min-w-full flex flex-col justify-center items-center">
-                                <div class="bg-hijau rounded-full h-12 w-12 mb-4"></div>
-                                <div class="flex items-center mb-4">
-                                <span class="text-kuning text-2xl mx-auto sm:-ml-0 my-4">&#9733;</span>
-                                <span class="text-kuning text-2xl mx-auto sm:-ml-0 my-4">&#9733;</span>
-                                <span class="text-kuning text-2xl mx-auto sm:-ml-0 my-4">&#9733;</span>
-                                <span class="text-kuning text-2xl mx-auto sm:-ml-0 my-4">&#9733;</span>
-                                <span class="text-kuning text-2xl mx-auto sm:-ml-0 my-4">&#9733;</span>
-                                </div>
-                                <h2 class="text-lg font-bold mb-2">Amelia Reslie</h2>
-                                <p class="text-yellow font-semibold">Fresh flavors, unbeatable quality, and exceptional service!</p>
+                <div x-data="carousel()" class="relative overflow-hidden w-full max-w-5xl mx-auto mt-36">
+                    <!-- Carousel Wrapper -->
+                    <div class="flex transition-transform duration-500" :style="{ transform: `translateX(-${currentIndex * 100}%)` }">
+                        <!-- Card 1 -->
+                        <div class="bg-yellow-400 p-6 rounded-lg shadow-md w-64 flex-shrink-0">
+                            <div class="bg-green-700 rounded-full h-16 w-16 mb-4"></div>
+                            <div class="flex items-center mb-4">
+                                <span class="text-yellow-500 text-xl">&#9733;</span>
+                                <span class="text-yellow-500 text-xl">&#9733;</span>
+                                <span class="text-yellow-500 text-xl">&#9733;</span>
+                                <span class="text-yellow-500 text-xl">&#9733;</span>
+                                <span class="text-yellow-500 text-xl">&#9733;</span>
                             </div>
-                            <!-- Card 2 -->
-                            <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-col carousel-item min-w-full flex flex-col justify-center items-center">
-                                <div class="bg-hijau rounded-full h-8 w-8 mb-4"></div>
-                                <div class="flex items-center mb-4">
-                                <span class="text-kuning text-2xl mx-auto sm:-ml-0 my-4">&#9733;</span>
-                                <span class="text-kuning text-2xl mx-auto sm:-ml-0 my-4">&#9733;</span>
-                                <span class="text-kuning text-2xl mx-auto sm:-ml-0 my-4">&#9733;</span>
-                                <span class="text-kuning text-2xl mx-auto sm:-ml-0 my-4">&#9733;</span>
-                                <span class="text-kuning text-2xl mx-auto sm:-ml-0 my-4">&#9733;</span>
-                                </div>
-                                <h2 class="text-yellow text-lg font-bold mb-2">Leo Ong</h2>
-                                <p class="text-yellow font-semibold">Consistently delicious juices and impeccable service.</p>
+                            <h2 class="text-lg font-semibold mb-2">Amelia Reslie</h2>
+                            <p class="text-gray-700">Fresh flavors, unbeatable quality, and exceptional service!</p>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="bg-yellow-50 p-6 rounded-lg shadow-md w-64 flex-shrink-0">
+                            <div class="bg-green-700 rounded-full h-16 w-16 mb-4"></div>
+                            <div class="flex items-center mb-4">
+                                <span class="text-yellow-500 text-xl">&#9733;</span>
+                                <span class="text-yellow-500 text-xl">&#9733;</span>
+                                <span class="text-yellow-500 text-xl">&#9733;</span>
+                                <span class="text-yellow-500 text-xl">&#9733;</span>
+                                <span class="text-yellow-500 text-xl">&#9734;</span>
                             </div>
-                            <!-- Card 3 -->
-                            <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-col carousel-item min-w-full flex flex-col justify-center items-center">
-                                <div class="bg-hijau rounded-full h-16 w-16 mb-4"></div>
-                                <div class="flex items-center mb-4">
-                                <span class="text-kuning text-2xl mx-auto sm:-ml-0 my-4">&#9733;</span>
-                                <span class="text-kuning text-2xl mx-auto sm:-ml-0 my-4">&#9733;</span>
-                                <span class="text-kuning text-2xl mx-auto sm:-ml-0 my-4">&#9733;</span>
-                                <span class="text-kuning text-2xl mx-auto sm:-ml-0 my-4">&#9733;</span>
-                                <span class="text-kuning text-2xl mx-auto sm:-ml-0 my-4">&#9733;</span>
-                                </div>
-                                <h2 class="text-lg font-bold mb-2">Kevin Wang</h2>
-                                <p class="text-gray-700">never fails to impress with their incredible flavors and top-notch quality</p>
+                            <h2 class="text-lg font-semibold mb-2">Leo Ong</h2>
+                            <p class="text-gray-700">Consistently delicious juices and impeccable service.</p>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="bg-yellow-50 p-6 rounded-lg shadow-md w-64 flex-shrink-0">
+                            <div class="bg-green-700 rounded-full h-16 w-16 mb-4"></div>
+                            <div class="flex items-center mb-4">
+                                <span class="text-yellow-500 text-xl">&#9733;</span>
+                                <span class="text-yellow-500 text-xl">&#9733;</span>
+                                <span class="text-yellow-500 text-xl">&#9733;</span>
+                                <span class="text-yellow-500 text-xl">&#9733;</span>
+                                <span class="text-yellow-500 text-xl">&#9733;</span>
                             </div>
-                            <!-- Navigation buttons -->
-                            <button id="prev" class="absolute top-1/2 left-0 transform -translate-y-1/2 bg-yellow text-hijau px-2 py-2 tracking-wider border-transparent animate-border text-blue-500 font-semibold rounded-lg hover:bg-blue-100 transition duration-300">Prev</button>
-                            <button id="next" class="absolute top-1/2 right-0 transform -translate-y-1/2 bg-yellow text-hijau px-2 py-2 tracking-wider border-transparent animate-border text-blue-500 font-semibold rounded-lg hover:bg-blue-100 transition duration-300">Next</but>
+                            <h2 class="text-lg font-semibold mb-2">Kevin Wang</h2>
+                            <p class="text-gray-700">Never fails to impress with their incredible flavors and top-notch quality.</p>
                         </div>
                     </div>
+                    <!-- Navigation Buttons -->
+                    <button @click="prev()" class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-yellow-400 p-2 rounded-full shadow-md">Prev</button>
+                    <button @click="next()" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-yellow-400 p-2 rounded-full shadow-md">Next</button>
                 </div>
-            </div>
         </section>
     </div>
     <!-- footer -->
@@ -169,6 +169,24 @@
                 carousel.style.transform = `translateX(${offset}%)`;
             }
         });
+    </script>
+    <script>
+        function carousel() {
+            return {
+                currentIndex: 0,
+                items: 3,
+                prev() {
+                    if (this.currentIndex > 0) {
+                        this.currentIndex--;
+                    }
+                },
+                next() {
+                    if (this.currentIndex < this.items - 1) {
+                        this.currentIndex++;
+                    }
+                }
+            }
+        }
     </script>
     
 </body>

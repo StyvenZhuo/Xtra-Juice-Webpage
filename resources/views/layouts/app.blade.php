@@ -95,13 +95,19 @@
                         <span class="text-[15px] ml-4 text-gray-200 font-bold">Home</span>
                     </div>
                 </a>
-                <a href="/">
+                <a href="{{ route('products') }}">
                     <div class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white">
                         <i class="bi bi-bookmark-fill"></i>
                         <span class="text-[15px] ml-4 text-gray-200 font-bold">Product</span>
                     </div>
                 </a>
-                <a href="/">
+                <a href="{{ route('reviews') }}">
+                    <div class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white">
+                        <i class="bi bi-bookmark-fill"></i>
+                        <span class="text-[15px] ml-4 text-gray-200 font-bold">Review</span>
+                    </div>
+                </a>
+                <a href="{{ route('profile') }}">
                     <div class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white">
                         <i class="bi bi-bookmark-fill"></i>
                         <span class="text-[15px] ml-4 text-gray-200 font-bold">Profile</span>

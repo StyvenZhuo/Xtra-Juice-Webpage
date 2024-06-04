@@ -11,6 +11,7 @@ export default {
         "green" : '#598669',
         "yellow" : '#FFFCE5',
         "hijau" : '#4A7A5B',
+        "kuning" : '#FFE922',
       }
     },
   },

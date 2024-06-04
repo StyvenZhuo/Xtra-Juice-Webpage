@@ -10,45 +10,50 @@
 <x-navbar />
 
     <!-- 1 -->
-    <section class="container flex">
-        <div class="flex">
-            <div class="mt-28 ml-16 sm:ml-32 md:ml-48 xl:mx-12">
-                <div>
-                    <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold font-sans text-hijau tracking-wider">Contact Us</h1>
+    <section class="container flex mx-auto mt-0 sm:mt-28">
+        <div class="flex flex-col">
+            <div class="sm:hidden mx-auto">
+                <img src="{{ asset('storage/images/contactxtra.png') }}" alt="ellipse" class="h-60  hover:underline"/> 
+            </div>
+            <div class="mt-0 sm:mt-0 mx-8 md:ml-48 xl:ml-52 text-center sm:text-left">
+                <div class="mx-auto sm:-ml-24 lg:ml-4">
+                    <h1 class="text-6xl sm:text-3xl md:text-4xl font-bold font-sans text-hijau tracking-wider">Contact Us</h1>
+                    <img src="{{ asset('storage/images/Line.png') }}" alt="" class="mx-auto sm:-ml-0 my-4">
                 </div>
-                <div class="mt-2">
-                    <p class="text-md md:text-xl text-hijau font-semibold tracking-widen">+62-1234-5678-910</p>
-                    <p class="text-md md:text-xl text-hijau font-semibold justify-between tracking-widen">Baloi-Sei Ladi, Jl. Gajah Mada, Tiban Indah, Kec.Sekupang, Kota Batam, Kepulauan Riau 29426</p>
+                <div class="mt-2 sm:-ml-24 lg:ml-4">
+                    <p class="text-3xl md:text-2xl text-hijau tracking-widen italic">+62-1234-5678-910</p>
+                    <p class="mt-4 text-xl md:text-2xl text-hijau font-semibold tracking-widen">Baloi-Sei Ladi, Jl. Gajah Mada, Tiban Indah, Kec.Sekupang, Kota Batam, Kepulauan Riau 29426</p>
                 </div>
-                <div class="flex gap-4 mt-2 ">
+                <div class="flex justify-center gap-4 md:mt-5 md:-ml-96 xl:mr-60 tracking-wider mt-3 text-md md:text-xl">
                     <img src="{{ asset('storage/images/whatsapp.png') }}" alt="ellipse" class="size-12 md:size-16  hover:underline"/>
                     <img src="{{ asset('storage/images/instagram.png') }}" alt="ellipse" class="size-12 md:size-16 hover:underline"/>
                 </div>
             </div>
         </div>
-        <div class="mt-12 mx-8 sm:mx-16 md:mx-8 md:mr-12">
-            <img src="{{ asset('storage/images/contactxtra.png') }}" alt="ellipse" class="h-60 sm:h-72 md:h-96  hover:underline"/>
+        <div class="mt-24 size-11/12 lg:size-6/12 xl:size-4/12 md:-mt-16 sm:mt-0 md:mx-8 md:mr-6 lg:mr-36 xl:mr-44 hidden sm:block">
+            <img src="{{ asset('storage/images/contactxtra.png') }}" alt="ellipse" class="hover:underline"/>
         </div>
     </section>
 
+
     <!-- 2 -->
-    <div class="mt-72 text-hijau font-bold text-xl sm:text-2xl md:text-2xl lg:text-3xl ml-24 sm:ml-28 lg:ml-48 tracking-wider">
+    <div class="mt-36 text-hijau font-bold text-xl sm:text-2xl md:text-2xl lg:text-3xl text-center md:text-left sm:ml-28 lg:ml-48 tracking-wider">
         <p>Your opinion is important to us !</p>
     </div>
-    <div class="flex items-center justify-center mx-36">
+    <div class="flex items-center justify-center mx-36 mb-24">
         <form action="{{ route('review.save') }}" method="POST" class="mt-20 w-full max-w-lg bg-yellow p-2 rounded-lg items-center right-0 left 0">
             @csrf
             <div class="mb-4">
                 <label class="block text-2xl text-hijau font-bold mb-2 tracking-wider" for="name">Name</label>
-                <input class="shadow appearance-none border border-green-500 rounded w-full py-2 px-3 text-gray-700 leading-tight  focus:outline-none focus:shadow-outline" id="name" name="name" type="text" placeholder="Your Name">
+                <input class="shadow appearance-none border border-green-500 rounded w-full py-2 px-3 text-hijau leading-tight  focus:outline-none focus:shadow-outline" id="name" name="name" type="text" placeholder="Your Name">
             </div>
             <div class="mb-4">
                 <label class="block text-2xl text-hijau font-bold mb-2 tracking-wider" for="email">Email</label>
-                <input class="shadow appearance-none border border-green-500 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" name="email" type="email" placeholder="Your Email">
+                <input class="shadow appearance-none border border-green-500 rounded w-full py-2 px-3 text-hijau leading-tight focus:outline-none focus:shadow-outline" id="email" name="email" type="email" placeholder="Your Email">
             </div>
             <div class="mb-4">
                 <label class="block text-2xl text-hijau font-bold mb-2 tracking-wider" for="review">Review</label>
-                <textarea class="shadow appearance-none border border-green-500 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="review" name="review" rows="4" placeholder="Your Review"></textarea>
+                <textarea class="shadow appearance-none border border-green-500 rounded w-full py-2 px-3 text-hijau leading-tight focus:outline-none focus:shadow-outline" id="review" name="review" rows="4" placeholder="Your Review"></textarea>
             </div>
             <div class="flex items-center justify-end">
                 <button class="ring-lime-600 bg-lime-600 text-white rounded-full font-bold py-2 px-4 focus:outline-none focus:shadow-outline" type="submit">

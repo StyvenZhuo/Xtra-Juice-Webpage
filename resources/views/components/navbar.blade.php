@@ -11,12 +11,12 @@
     <title>Xtra-Juice</title>
 </head>
 <body>
-    <nav class="container py-5 px-5 bg-yellow right-0 left-0 justify-between mx-auto" x-data="{navOpen : true}">
+    <nav class="container py-2 md:py-5 px-5 bg-yellow right-0 left-0 justify-between mx-auto" x-data="{navOpen : true}">
         <div class="container mx-auto mt-auto">
-            <div class="flex gap-36 sm:gap-0 md:gap-32 lg:gap-36 justify-center">
-                <img src="{{ asset('storage/images/Logonew.png') }}" alt="Logo" class="h-36 mt-5 order-1 " />
+            <div class="flex gap-40 sm:gap-0 md:gap-32 lg:gap-36 justify-center">
+                <img src="{{ asset('storage/images/Logonew.png') }}" alt="Logo" class="h-16 md:h-36 mt-5 order-1 " />
                 <div class="md:hidden">
-                    <button @click="navOpen = ! navOpen" class="text-green flex justify-center flex-col size-24 ml-8">
+                    <button @click="navOpen = ! navOpen" class="text-green flex justify-center flex-col size-36 -mt-4">
                     <ion-icon name="menu-outline"></ion-icon>
                 </div>
                 <div class="order-2 hidden sm:block justify">
@@ -40,7 +40,7 @@
                 </div>
             </div>
         </div>
-        <div x-show="navOpen" x-data="{open : false}" class="fixed bottom-0 right-0 left-0 bg-white p-4 border md:hidden"
+        <div x-show="navOpen" x-data="{open : false}" class="fixed bottom-0 right-0 left-0 bg-white px-0 py-2 rounded-full border md:hidden"
             x-transition:enter="transition ease-out duration-300"
             x-transition:enter-start="opacity-0 scale-90"
             x-transition:enter-end="opacity-100 scale-100"
@@ -48,26 +48,26 @@
             x-transition:leave-start="opacity-100 scale-100"
             x-transition:leave-end="opacity-0 scale-90"
             >
-            <ul class="flex justify-between">
+            <ul class="flex justify-between mx-4">
                 <li>
                     <button class="text-green flex justify-center flex-col items-center text-base gap-1 text-bold">
                         <ion-icon name="home-outline" class="text-xl"></ion-icon>
-                        <span class="text-base font-bold">Home</span>
+                        <span class="text-base font-bold tracking-wider">Home</span>
                 </li>
                 <li>
                     <button class="text-green flex justify-center flex-col items-center text-base gap-1 text-bold">
                         <ion-icon name="grid-outline"></ion-icon>
-                        <span class="text-base font-bold">Menu</span>
+                        <span class="text-base font-bold tracking-wider">Menu</span>
                 </li>
                 <li>
                     <button class="text-green flex justify-center flex-col items-center text-base gap-1 text-bold">
                         <ion-icon name="call-outline"></ion-icon>
-                        <span class="text-base font-bold">Contact</span>
+                        <span class="text-base font-bold tracking-wider">Contact</span>
                 </li>
                 <li>
                     <button @click="open = !open" class="text-green flex justify-center flex-col items-center text-base gap-1 text-bold">
                         <ion-icon name="menu-outline"></ion-icon>
-                        <span class="text-base font-bold">More</span>
+                        <span class="text-base font-bold tracking-wider">More</span>
                 </li>
             </ul>
             <div 

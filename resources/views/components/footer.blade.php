@@ -18,7 +18,7 @@
       </div>
       <div class="flex mt-12 sm:mt-24 md:mt-28 xl:mt-40 xl:-mr-16  gap-3 xl:gap-4">
         <a href="https://wa.me/082387535653/?text=urlencodedtext" class="text-white hover:underline"><img src="{{ asset('storage/images/whatsappfooter.png') }}" alt="ellipse" class="h-10 md:h-16 hover:underline"/></a>
-        <a href="https://www.instagram.com/aming_kho/" class="text-white hover:underline"><img src="{{ asset('storage/images/instagramfooter.png') }}" alt="ellipse" class="h-10 md:h-16 hover:underline"/></a>
+        <a href="https://www.instagram.com/_xtrajuice?igsh=MnB3NTR4ajdybzJp" class="text-white hover:underline"><img src="{{ asset('storage/images/instagramfooter.png') }}" alt="ellipse" class="h-10 md:h-16 hover:underline"/></a>
       </div>
     </div>
   </div>

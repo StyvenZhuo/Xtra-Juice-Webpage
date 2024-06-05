@@ -13,7 +13,7 @@
 <body>
     <nav class="container py-2 md:py-5 px-5 bg-yellow right-0 left-0 justify-between justify-center items-center mx-auto" x-data="{navOpen : true}">
         <div class="container mx-auto mt-auto">
-            <div class="flex gap-40 sm:gap-0 md:gap-32 lg:gap-28 justify-center">
+            <div class="flex gap-40 sm:gap-0 md:gap-24 lg:gap-28 justify-center">
                 <img src="{{ asset('storage/images/Logonew.png') }}" alt="Logo" class="h-16 md:h-36 mt-5 order-1 " />
                 <div class="md:hidden">
                     <button @click="navOpen = ! navOpen" class="text-green flex justify-center flex-col size-36 -mt-4">

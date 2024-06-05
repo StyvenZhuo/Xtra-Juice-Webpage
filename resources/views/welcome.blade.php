@@ -62,8 +62,8 @@
                         </div>
                         <!-- Slide 3 -->
                         <div class="flex-col carousel-item min-w-full flex justify-center items-center">
-                            <img src="{{ asset('storage/images/guavajuice.png') }}" alt="Image 3" class="h-44 sm:h-96 md:h-52 xl:h-52 lg:px-4 lg:py-2 hover:underline mx-auto"/>
-                            <p class="text-hijau text-xl lg:text-xl font-bold tracking-wider text-center mt-2">Guava Juice</p>
+                            <img src="{{ asset('storage/images/watermelonjuice.png') }}" alt="Image 3" class="h-44 sm:h-96 md:h-52 xl:h-52 lg:px-4 lg:py-2 hover:underline mx-auto"/>
+                            <p class="text-hijau text-xl lg:text-xl font-bold tracking-wider text-center mt-2">Watermelon Juice</p>
                         </div>
                     </div>
                     <!-- Navigation buttons -->
@@ -78,11 +78,11 @@
             <div class="container mx-auto mt-48">
                 <div class="mx-auto flex-col mt-12 lg:mt-20">
                     <img src="{{ asset('storage/images/Owner.png') }}" alt="owner" class="h-96 sm:h-96 md:size-4/12 mx-auto hover:underline"/>
-                        <div class=" mx-16 text-center justify-center lg:ml-8 text-hijau mt-4 sm:mt-8 xl:mt-5">
+                        <div class=" mx-16 xl:mx-auto text-center justify-center lg:ml-8 text-hijau mt-4 sm:mt-8 xl:mt-5">
                             <h1 class="font-bold text-4xl sm:text-4xl md:text-5xl tracking-widen">Pak Aga</h1>
-                            <h1 class="mt-1 xl:mt-2 text-hijau text-xl sm:text-3xl md:text-4xl italic">Pemilik xtrajuice</h1>
+                            <h1 class="mt-1 xl:mx-auto xl:mt-2 text-hijau text-xl sm:text-3xl md:text-4xl italic">Pemilik xtrajuice</h1>
                             <img src="{{ asset('storage/images/Line.png') }}" alt="" class="mx-auto my-2">
-                            <p class="text-md sm:text-base md:text-xl font-bold mt-4 text-center">Pemilik stand jus buah "Xtra Juice" yang merupakan sebuah usaha minuman yang berlokasi di kantin Universitas Internasioanal Batam. UMKM ini berdiri pada tahun 2016 dan sudah beroperasi selama 18 tahun.  Stand Jus Buah "Xtra Juice" ini menyediakan beragam Jus dengan 16 pilihan buah dan sayur yang segar.</p>
+                            <p class="text-md sm:text-base md:text-xl font-bold mt-4 text-center xl:mx-auto">Pemilik stand jus buah "Xtra Juice" yang merupakan sebuah usaha minuman yang berlokasi di kantin Universitas Internasioanal Batam. UMKM ini berdiri pada tahun 2016 dan sudah beroperasi selama 18 tahun.  Stand Jus Buah "Xtra Juice" ini menyediakan beragam Jus dengan 16 pilihan buah dan sayur yang segar.</p>
                         </div>
                 </div>
             </div>

@@ -55,7 +55,7 @@
                 </button>
  
                 <button data-dropdown class="flex items-center px-3 py-2 focus:outline-none hover:bg-gray-200 hover:rounded-md" type="button" x-data="{ open: false }" @click="open = true" :class="{ 'bg-gray-200 rounded-md': open }">
-                    <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="Profle" class="h-8 w-8 rounded-full">
+                    <img src="{{ auth()->user()->pic ? url('storage/images/profile/' . auth()->user()->pic) : url('storage/images/no_image.jpg')  }}" alt="Profle" class="h-8 w-8 rounded-full">
  
                     <span class="ml-4 text-sm hidden md:inline-block">{{ auth()->user()->name }}</span>
                     <svg class="fill-current w-3 ml-4" viewBox="0 0 407.437 407.437">
@@ -64,7 +64,7 @@
  
                     <div data-dropdown-items class="text-sm text-left absolute top-0 right-0 mt-16 mr-4 bg-white rounded border border-gray-400 shadow" x-show="open" @click.away="open = false">
                         <ul>
-                            <li class="px-4 py-3 border-b hover:bg-gray-200"><a href="#">My Profile</a></li>
+                            <li class="px-4 py-3 border-b hover:bg-gray-200"><a href="{{ route('profile') }}">My Profile</a></li>
                             <li class="px-4 py-3 border-b hover:bg-gray-200"><a href="#">Settings</a></li>
                             <li class="px-4 py-3 hover:bg-gray-200"><a href="{{ route('logout') }}">Log out</a></li>
                         </ul>
@@ -75,7 +75,7 @@
         </div>
     </header>
  
-    <div class="flex flex-row ">
+    <div class="flex flex-row">
         <div class="flex flex-col w-64 h-screen overflow-y-auto bg-gray-900 border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
             <div class="sidebar text-center bg-gray-900">
                 <div class="text-gray-100 text-xl">
@@ -89,10 +89,10 @@
                     <i class="bi bi-search text-sm"></i>
                     <input type="text" placeholder="Search" class="text-[15px] ml-4 w-full bg-transparent focus:outline-none" />
                 </div>
-                <a href="/">
+                <a href="{{ route('dashboard') }}">
                     <div class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white">
                         <i class="bi bi-house-door-fill"></i>
-                        <span class="text-[15px] ml-4 text-gray-200 font-bold">Home</span>
+                        <span class="text-[15px] ml-4 text-gray-200 font-bold">Dashboard</span>
                     </div>
                 </a>
                 <a href="{{ route('products') }}">
@@ -113,6 +113,12 @@
                         <span class="text-[15px] ml-4 text-gray-200 font-bold">Profile</span>
                     </div>
                 </a>
+                <a href="/">
+                    <div class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white">
+                        <i class="bi bi-bookmark-fill"></i>
+                        <span class="text-[15px] ml-4 text-gray-200 font-bold">Back to Web</span>
+                    </div>
+                </a>
                 <a href="{{ route('logout') }}">
                     <div class="my-4 bg-gray-600 h-[1px]"></div>
                     <div class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white">
@@ -122,7 +128,7 @@
                 </a>
             </div>
         </div>
-        <div class="flex flex-col w-full h-screen px-4 py-8 mt-10">
+        <div class="bg-gray-900flex flex-col w-full h-screen px-4 py-8 mt-10">
             <div>@yield('contents')</div>
         </div>
     </div>

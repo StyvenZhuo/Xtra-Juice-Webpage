@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
  
 use Illuminate\Http\Request;
 use App\Models\User;
+use App\Models\Product;
+use App\Models\Reviews;
 use Illuminate\Support\Facades\Auth; 
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
@@ -78,5 +80,42 @@ class AuthController extends Controller
         return view('profile');
     }
 
+    public function updateProfile(Request $request)
+    {
+        $user = auth()->user();
+
+        Validator::make($request->all(), [
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|unique:users,email,' . $user->id,
+            'password' => 'nullable|min:8|confirmed',
+            'pic' => 'nullable|image|max:2048'
+        ])->validate();
+
+        $user->name = $request->name;
+        $user->email = $request->email;
+
+        if ($request->filled('password')) {
+            $user->password = Hash::make($request->password);
+        }
+
+        if ($request->hasFile('pic')) {
+            $file = $request->file('pic');
+            $filename = date('YmdHi') . $file->getClientOriginalName();
+            $file->move(public_path('storage/images/profile'), $filename);
+            $user['pic'] = $filename;
+        }
+
+        $user->save();
+
+        return redirect()->route('profile')->with('success', 'Profile updated successfully.');
+    }
+
+    public function dashboard()
+    {
+        $productCount = Product::count();
+        $reviewCount = Reviews::count();
+
+        return view('dashboard', compact('productCount', 'reviewCount'));
+    }
 
 }

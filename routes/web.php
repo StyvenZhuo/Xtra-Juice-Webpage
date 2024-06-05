@@ -24,7 +24,9 @@ Route::middleware('auth')->group(function () {
       return view('dashboard');
   })->name('dashboard');
 
+  Route::get('dashboard', [AuthController::class, 'dashboard'])->name('dashboard');
   Route::get('/profile', [App\Http\Controllers\AuthController::class, 'profile'])->name('profile');
+  Route::post('/profile', [AuthController::class, 'updateProfile'])->name('profile.update');
 
   Route::get('/reviews', [ReviewController::class, 'index'])->name('reviews');
   Route::delete('/reviews/destroy/{id}', [ReviewController::class, 'destroy'])->name('reviews/destroy');

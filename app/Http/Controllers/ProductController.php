@@ -106,17 +106,12 @@ class ProductController extends Controller
         return redirect()->route('products')->with('success', 'product deleted successfully');
     }
 
-    public function showMenuBv()
+    public function showMenu()
     {
-        // Fetch products where id_product contains 'BV'
-        $Bvproduct = Product::where('id_product', 'LIKE', '%BV%')->get();
-        return view('menu', compact('Bvproducts'));
+        // Fetch products 
+        $product = Product::all();
+        return view('menu', compact('product'));
     }
 
-    public function showMenuFd()
-    {
-        // Fetch products where id_product contains 'FD'
-        $Fdproduct = Product::where('id_product', 'LIKE', '%FD%')->get();
-        return view('menu', compact('Fdproducts'));
-    }
+    
 }

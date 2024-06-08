@@ -56,5 +56,4 @@ Route::get('/contact', function () {
   return view('components.contact');
 });
 
-Route::get('/menu/showBv', [ProductController::class, 'showMenu']);
-Route::get('/menu/showFd', [ProductController::class, 'showMenuFd']);
+Route::get('/menu/show', [ProductController::class, 'showMenu']);

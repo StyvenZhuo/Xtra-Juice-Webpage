@@ -175,28 +175,28 @@ $product = App\Models\Product::all();
                 <h1 class="">Menu</h1>
             </div>
             <div class="container mt-8 mx-auto">
-            @if(isset($product) && $product->count() > 0)
-                <div class="flex flex-wrap justify-center">
-                    @foreach($product as $rs)
-                        <div class="w-full md:w-1/2 lg:w-1/4 p-4">
-                            <div class="flex justify-center">
-                                <img src="{{ (!empty($rs->pic))? url('storage/images/upload/'.$rs->pic):url('storage/images/no_image.jpg') }}" alt="{{ $rs->menu }}" class="md:h-60 lg:h-72 xl:h-60 lg:px-4 lg:py-2 hover:underline"/>
+                @if(isset($product) && $product->count() > 0)
+                    <div class="flex flex-wrap justify-center">
+                        @foreach($product as $rs)
+                            <div class="w-full md:w-1/2 lg:w-1/4 p-4">
+                                <div class="flex justify-center">
+                                    <img src="{{ (!empty($rs->pic))? url('storage/images/upload/'.$rs->pic):url('storage/images/no_image.jpg') }}" alt="{{ $rs->menu }}" class="md:h-60 lg:h-72 xl:h-60 lg:px-4 lg:py-2 hover:underline"/>
+                                </div>
+                                <div class="text-center mt-2">
+                                    <ul class="text-hijau text-2xl font-bold">
+                                        <li>{{ $rs->menu }}</li>
+                                    </ul>
+                                    <ul class="text-hijau text-2xl font-base mt-2">
+                                        <li>{{ $rs->price }}</li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="text-center mt-2">
-                                <ul class="text-hijau text-2xl font-bold">
-                                    <li>{{ $rs->menu }}</li>
-                                </ul>
-                                <ul class="text-hijau text-2xl font-base mt-2">
-                                    <li>{{ $rs->price }}</li>
-                                </ul>
+                        @endforeach
                             </div>
-                        </div>
-                    @endforeach
-                        </div>
-                @else
+                    @else
                         <div class="text-center">Product not found, please include them in database with "BV" in $id_product</div>
-            @endif
-        </div>
+                @endif
+            </div>
                     <!-- 2 -->
                     <!-- <div class="flex justify-center justify-between md:mx-16 mt-16">
                         <img src="{{ asset('storage/images/avocadojuice.png') }}" alt="ellipse" class="md:h-60 lg:h-72 xl:h-60 hover:underline"/>
@@ -218,123 +218,7 @@ $product = App\Models\Product::all();
                                 <li class="">Rp 10.000,-</li>
                             </ul>
                     </div> -->
-                    <!-- 3 -->
-                    <!--
-                    <div class="flex justify-center justify-between md:mx-16 mt-16">
-                        <img src="{{ asset('storage/images/melonjuice.png') }}" alt="ellipse" class="md:h-60 lg:h-72 xl:h-60 hover:underline"/>
-                        <img src="{{ asset('storage/images/papayajuice.png') }}" alt="ellipse" class="md:h-60 lg:h-72 xl:h-60 lg:px-4 lg:py-2 hover:underline"/>
-                        <img src="{{ asset('storage/images/watermelonjuice.png') }}" alt="ellipse" class="md:h-60 lg:h-72 xl:h-60 lg:px-4 lg:py-2 hover:underline"/>
-                        <img src="{{ asset('storage/images/tomatojuice.png') }}" alt="ellipse" class="md:h-60 lg:h-72 xl:h-60 lg:px-4 lg:py-2 hover:underline"/>
-                    </div>
-                    <div class="justify-center justify-between mx-12 md:mx-16 lg:mx-24 xl:mx-20">
-                            <ul class="flex justify-center justify-between text-hijau text-2xl md:mx-3 font-bold mt-2">
-                                <li class="">Melon Juice</li>
-                                <li class="">Papaya Juice</li>
-                                <li class="">Watermelon Juice</li>
-                                <li class="">Tomato Juice</li>
-                            </ul>
-                            <ul class="flex justify-center text-hijau text-2xl font-base justify-between md:mx-6 mt-2">
-                                <li class="">Rp 10.000,-</li>
-                                <li class="">Rp 10.000,-</li>
-                                <li class="">Rp 10.000,-</li>
-                                <li class="">Rp 10.000,-</li>
-                            </ul>
-                    </div>-->
-                    <!-- 4 -->
-                    <!--
-                    <div class="flex justify-center justify-between md:mx-16 mt-16">
-                        <img src="{{ asset('storage/images/cucumberjuice.png') }}" alt="ellipse" class="md:h-60 lg:h-72 xl:h-60 hover:underline"/>
-                        <img src="{{ asset('storage/images/carrotjuice.png') }}" alt="ellipse" class="md:h-60 lg:h-72 xl:h-60 lg:px-4 lg:py-2 hover:underline"/>
-                        <img src="{{ asset('storage/images/shourshoupjuice.png') }}" alt="ellipse" class="md:h-60 lg:h-72 xl:h-60 lg:px-4 lg:py-2 hover:underline"/>
-                        <img src="{{ asset('storage/images/strawberryjuice.png') }}" alt="ellipse" class="md:h-60 lg:h-72 xl:h-60 lg:px-4 lg:py-2 hover:underline"/>
-                    </div>
-                    <div class="justify-center justify-between mx-12 md:mx-16 lg:mx-24 xl:mx-20">
-                            <ul class="flex justify-center justify-between text-hijau text-2xl md:mx-3 font-bold mt-2">
-                                <li class="">Cucumber Juice</li>
-                                <li class="">Carrot Juice</li>
-                                <li class="">Shourshoup Juice</li>
-                                <li class="">Strawberry Juice</li>
-                            </ul>
-                            <ul class="flex justify-center text-hijau text-2xl font-base justify-between md:mx-6 mt-2">
-                                <li class="">Rp 10.000,-</li>
-                                <li class="">Rp 10.000,-</li>
-                                <li class="">Rp 10.000,-</li>
-                                <li class="">Rp 10.000,-</li>
-                            </ul>
-                    </div>
-                </div>
         </div>
-             -->
-        
-       <!-- Additional Menu size md to lg -->
-       <!-- <div class="hidden md:block mb-40">
-            <div class="text-center justify-center mt-60 text-4xl font-bold text-hijau tracking-widen">
-                <h1 class="">Additional Menu</h1>
-            </div>
-            <div class="container mt-8 mx-auto">
-                @include('components.menu_fd')
-            </div> -->
-                <!-- <div class="container mt-24 mx-auto"> -->
-                    <!-- 1 -->
-                    <!-- <div class="flex justify-center justify-between md:mx-8 lg:mx-28 mt-16">
-                        <img src="{{ asset('storage/images/chickenburger.png') }}" alt="ellipse" class="md:h-60 lg:h-72 xl:h-72 md:-mt-4 lg:-mt-10 hover:underline"/>
-                        <img src="{{ asset('storage/images/fishburger.png') }}" alt="ellipse" class="md:h-48 lg:h-52 xl:h-52  hover:underline"/>
-                        <img src="{{ asset('storage/images/chickencheeseburger.png') }}" alt="ellipse" class="md:h-48 lg:h-52 xl:h-52 hover:underline"/>
-                        <img src="{{ asset('storage/images/chickeneggburger.png') }}" alt="ellipse" class="md:h-48 lg:h-52 xl:h-52 hover:underline"/>
-                    </div>
-                    <div class="justify-center justify-between mx-12 md:mx-8 lg:mx-32 xl:mx-36">
-                            <ul class="flex text-center justify-center justify-between text-hijau text-xl md:mx-3 font-bold mt-2">
-                                <li class="">Chicken Burger</li>
-                                <li class="">Fish Burger</li>
-                                <li class="xl:-mr-24">Chicken Cheese Burger</li>
-                                <li class="">Chicken Egg Burger</li>
-                            </ul>
-                            <ul class="flex justify-center text-hijau text-2xl font-base justify-between md:mx-16 mt-2">
-                                <li class="">Rp 10.000,-</li>
-                                <li class="">Rp 10.000,-</li>
-                                <li class="">Rp 10.000,-</li>
-                                <li class="">Rp 10.000,-</li>
-                            </ul>
-                    </div> -->
-                    <!-- 2 -->
-                    <!-- <div class="flex justify-center justify-between md:mx-8 lg:mx-28 mt-16">
-                        <img src="{{ asset('storage/images/completeburger.png') }}" alt="ellipse" class="md:h-60 lg:h-72 xl:h-72 md:-mt-4 lg:-mt-10 hover:underline"/>
-                        <img src="{{ asset('storage/images/hotdog.png') }}" alt="ellipse" class="md:h-48 lg:h-52 xl:h-52  hover:underline"/>
-                        <img src="{{ asset('storage/images/egghotdog.png') }}" alt="ellipse" class="md:h-48 lg:h-52 xl:h-52 hover:underline"/>
-                        <img src="{{ asset('storage/images/cheesehotdog.png') }}" alt="ellipse" class="md:h-48 lg:h-52 xl:h-52 hover:underline"/>
-                    </div>
-                    <div class="justify-center justify-between mx-12 md:mx-8 lg:mx-44 xl:mx-40">
-                            <ul class="flex text-center justify-center justify-between text-hijau text-xl md:mx-3 font-bold mt-2">
-                                <li class="">Complete Burger</li>
-                                <li class="">Hotdog</li>
-                                <li class="">Egg Hotdog</li>
-                                <li class="">Cheese Hotdog</li>
-                            </ul>
-                            <ul class="flex justify-center text-hijau text-2xl font-base justify-between md:mx-16 lg:mx-8 mt-2">
-                                <li class="">Rp 10.000,-</li>
-                                <li class="">Rp 10.000,-</li>
-                                <li class="">Rp 10.000,-</li>
-                                <li class="">Rp 10.000,-</li>
-                            </ul>
-                    </div> -->
-                    <!-- 3 -->
-                    <!-- <div class="flex justify-center justify-between md:mx-8 lg:mx-32 mt-16">
-                        <img src="{{ asset('storage/images/completehotdog.png') }}" alt="ellipse" class="md:h-60 lg:h-72 xl:h-72 md:-mt-4 lg:-mt-10 hover:underline"/>
-                    </div>
-                    <div class="justify-center justify-between mx-12 md:mx-8 lg:mx-48 xl:mx-40">
-                            <ul class="flex text-center justify-center justify-between text-hijau text-xl md:mx-3 font-bold mt-2">
-                                <li class="">Chicken Burger</li>
-                            </ul>
-                            <ul class="flex justify-center text-hijau text-2xl font-base justify-between md:mx-16 lg:mx-6 mt-2">
-                                <li class="">Rp 10.000,-</li>
-                            </ul>
-                    </div>
-
-
-                </div> --> 
-        </div>
-        
-        
     </div>
 
 

@@ -18,27 +18,26 @@
     <x-navbar />
 </header>
 
-<body>
-    <div class="max-w-screen mx-auto w-full relative">
-        <div class="bg-cover bg-center bg-none bg-local bg-fixed object-cover w-full h-full" style="background-image: url(storage/images/bgtop.png)">
+<body class="bg-yellow">
+    <div class="max-w-screen-2xl mx-auto w-full relative">
             <!-- 1 -->
             <div class="">
                 <div class="">
-                    <div class="flex relative py-4 ">
-                        <div class="flex flex-col sm:mx-24 gap-4 -mt-12 xl:mt-0">
+                    <div class="flex relative py-0 ">
+                        <div class="flex flex-col sm:mx-44 gap-4 -mt-12 xl:mt-0">
                             <!-- pic mobile -->
                             <div class="sm:hidden mx-auto w-[300px]">
                                 <img src="{{ asset('storage/images/homepic.png') }}" alt="ellipse"/>
                             </div>
                             <!-- text top -->
-                            <div class="-mt-44 sm:mt-0 sm:py-36 mx-8 sm:mx-24 md:mx-18 sm:-ml-24 md:ml-0 xl:ml-24 text-center sm:text-left">
+                            <div class="-mt-44 sm:mt-0 2xl:mt-36 sm:py-36 mx-8 sm:mx-24 md:mx-4 sm:-ml-24 md:-ml-20 2xl:-ml-24 xl:mx-0 text-center sm:text-left">
                                 <div class="lg:ml-4">
-                                    <h1 class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl sm:-mr-40 font-bold font-sans text-hijau tracking-wider">
+                                    <h1 class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl sm:-mr-40 font-bold font-sans text-hijau tracking-wider">
                                         Where Taste and Health Blend Perfectly
                                     </h1>
                                     <img src="{{ asset('storage/images/Line.png') }}" alt="" class="mx-auto sm:-ml-0 my-2 md:my-4">
                                 </div>
-                                <p class="mt-2 lg:ml-4 text-sm md:text-2xl sm:-mr-40 text-hijau font-semibold tracking-widen">
+                                <p class="mt-2 lg:ml-4 text-sm md:text-2xl 2xl:text-4xl sm:-mr-40 text-hijau font-semibold tracking-widen">
                                     Elevate your wellbeing with every sip, as our handpicked fruits, harmoniously combined to create a deliciously healthy treat for your enjoyment.
                                 </p>
                                 <a href="/">
@@ -49,8 +48,8 @@
                             </div>
                         </div>
                         <!-- pic md-2xl -->
-                        <div class="hidden sm:block w-[500px] h-[500px] md:w-[1200px] md:h-[1200px] sm:mt-12 md:-mt-12 xl:mt-8">
-                            <img src="{{ asset('storage/images/homepic.png') }}" alt="ellipse" class="hover:underline"/>
+                        <div class="hidden sm:block sm:-mt-8 md:-mt-24 xl:-mt-16 2xl:-mt-24">
+                            <img src="{{ asset('storage/images/homepic.png') }}" alt="ellipse" class="w-[2000px] h-[500px] md:w-[2100px] md:h-[700px] 2xl:w-[1800px] 2xl:h-[1000px] hover:underline"/>
                         </div>
                     </div>
                 </div>
@@ -58,51 +57,51 @@
 
 
             <!-- 2 best seller section -->
-            <div class="flex flex-col items-center xl:h-relative overflow-hidden space-y-10 my-14 -mt-12 xl:-mt-[200px] ">
-                <a class="text-hijau font-bold tracking-wider text-3xl">Best Seller</a>
+            <div class="flex flex-col items-center xl:h-relative overflow-hidden space-y-10 my-14 mt-36 2xl:mt-4 2xl:py-36 ">
+                <a class="text-hijau font-bold tracking-wider text-3xl 2xl:text-6xl">Best Seller</a>
                 <div class="group swiper-container">
-                    <div class="swiper-wrapper xl:py-24">
+                    <div class="swiper-wrapper xl:py-60">
                         <div class="swiper-slide">
                             <div class="flex space-x-24 items-center justify-center">
-                                <img class="w-[150px] h-[150px]" src="{{ asset('storage/images/orangejuice1.png') }}" />
-                                <img class="w-[150px] h-[150px]" src="{{ asset('storage/images/avocadojuice.png') }}" />
-                                <img class="w-[150px] h-[150px]" src="{{ asset('storage/images/watermelonjuice.png') }}" />
-                                <img class="w-[150px] h-[150px]" src="{{ asset('storage/images/orangejuice1.png') }}" />
-                                <img class="w-[150px] h-[150px]" src="{{ asset('storage/images/orangejuice1.png') }}" />
+                                <img class="w-[150px] h-[150px] 2xl:w-[250px] 2xl:h-[250px]" src="{{ asset('storage/images/orangejuice1.png') }}" />
+                                <img class="w-[150px] h-[150px] 2xl:w-[250px] 2xl:h-[250px]" src="{{ asset('storage/images/avocadojuice.png') }}" />
+                                <img class="w-[150px] h-[150px] 2xl:w-[250px] 2xl:h-[250px]" src="{{ asset('storage/images/watermelonjuice.png') }}" />
+                                <img class="w-[150px] h-[150px] 2xl:w-[250px] 2xl:h-[250px]" src="{{ asset('storage/images/orangejuice1.png') }}" />
+                                <img class="w-[150px] h-[150px] 2xl:w-[250px] 2xl:h-[250px]" src="{{ asset('storage/images/orangejuice1.png') }}" />
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="flex space-x-24 items-center justify-center">
-                                <img class="w-[150px] h-[150px]" src="{{ asset('storage/images/orangejuice1.png') }}" />
-                                <img class="w-[150px] h-[150px]" src="{{ asset('storage/images/orangejuice1.png') }}" />
-                                <img class="w-[150px] h-[150px]" src="{{ asset('storage/images/watermelonjuice.png') }}" />
-                                <img class="w-[150px] h-[150px]" src="{{ asset('storage/images/orangejuice1.png') }}" />
-                                <img class="w-[150px] h-[150px]" src="{{ asset('storage/images/orangejuice1.png') }}" />
+                                <img class="w-[150px] h-[150px] 2xl:w-[250px] 2xl:h-[250px]" src="{{ asset('storage/images/orangejuice1.png') }}" />
+                                <img class="w-[150px] h-[150px] 2xl:w-[250px] 2xl:h-[250px]" src="{{ asset('storage/images/avocadojuice.png') }}" />
+                                <img class="w-[150px] h-[150px] 2xl:w-[250px] 2xl:h-[250px]" src="{{ asset('storage/images/watermelonjuice.png') }}" />
+                                <img class="w-[150px] h-[150px] 2xl:w-[250px] 2xl:h-[250px]" src="{{ asset('storage/images/orangejuice1.png') }}" />
+                                <img class="w-[150px] h-[150px] 2xl:w-[250px] 2xl:h-[250px]" src="{{ asset('storage/images/orangejuice1.png') }}" />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- 3 -->
-            <section class="">
+            <!-- 3. Owner -->
+            <section class="mt-60">
                 <div class="container text-center relative">
                     <div class="flex flex-col justify-center relative mx-auto ">
-                        <div class="md:flex -mt-72 md:-mt-[230px] lg:-mt-[250px] xl:-mt-60  sm:-mt-[400px] md:mt-0 lg:-mt-[40px] lg:mx-12 gap-4">
-                            <div class="h-[150px] w-[150px] md:h-[2600px] md:w-[2600px] lg:h-[2900px] lg:w-[2800px] xl:h-[1400px] xl:w-[1400px]  mx-auto md:mx-12">
-                                <img src="{{ asset('storage/images/Owner.png') }}" alt="owner"/>
+                        <div class="sm:flex lg:mx-12 gap-4 xl:mx-44 2xl:mx-36 gap-24">
+                            <div class=" mx-auto md:mx-6">
+                                <img src="{{ asset('storage/images/Owner.png') }}" class="size-56 sm:h-[400px] sm:w-[1800px] md:h-[500px] md:w-[2500px] sm:mx-24" alt="owner" />
                             </div>
-                            <div class="text-hijau mt-12 md:mt-40 lg:mt-44 xl:mt-32 md:pr-4">
-                                <div class=" md:px-0 text-center md:text-left mt-4">
-                                    <h1 class="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-widen">
+                            <div class="text-hijau mt-4 sm:mt-36 md:mt-36 lg:mt-40 md:pr-4 sm:ml-6">
+                                <div class=" md:px-0 text-center sm:text-left mt-4 2xl:mt-28">
+                                    <h1 class="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-7xl tracking-widen">
                                         Pak Aga
                                     </h1>
-                                    <h1 class="mt-0 xl:mt-2 text-hijau text-xl sm:text-3xl md:text-4xl italic my-4">
+                                    <h1 class="mt-0 xl:mt-2 text-hijau text-xl sm:text-3xl md:text-4xl 2xl:text-5xl italic my-4">
                                         Pemilik xtrajuice
                                     </h1>
-                                    <img src="{{ asset('storage/images/Line.png') }}" alt="" class="mx-auto md:mx-0 my-1 lg:my-3">
+                                    <img src="{{ asset('storage/images/Line.png') }}" alt="" class="mx-auto my-1 lg:my-3 sm:mx-0">
                                 </div>
-                                <p class="text-sm sm:text-base md:text-xl lg:text-2xl font-bold mt-4 text-center px-12 md:px-0 md:text-left">
+                                <p class="text-sm sm:text-base md:text-xl lg:text-2xl 2xl:text-4xl font-bold mt-4 text-center px-12 sm:px-0 md:px-0 sm:text-left">
                                     Pemilik stand jus buah "Xtra Juice" yang merupakan sebuah usaha minuman yang berlokasi di kantin Universitas Internasioanal Batam. UMKM ini berdiri pada tahun 2016 dan sudah beroperasi selama 18 tahun. Stand Jus Buah "Xtra Juice" ini menyediakan beragam Jus dengan 16 pilihan buah dan sayur yang segar.
                                 </p>
                             </div>
@@ -111,63 +110,102 @@
                 </div>
             </section>
 
-            <!-- 4 -->
-            <section class="bg-white h-relative">
-                <div class="">
-                    <div class="text-center justify-center text-4xl font-bold text-hijau tracking-wider">
-                        <h1 class="">Testimonial</h1>
-                    </div>
-                    <div x-data="carousel()" class="relative overflow-hidden w-full max-w-5xl mx-auto mt-60 mb-28">
-                        <!-- Carousel Wrapper -->
-                        <div class="flex transition-transform duration-500" :style="{ transform: `translateX(-${currentIndex * 100}%)` }">
+            <!-- 4 review -->
+            <div class="flex flex-col items-center xl:h-relative overflow-hidden space-y-10 my-14 py-60 2xl:mt-4 2xl:py-36">
+                <a class="text-hijau font-bold tracking-wider text-3xl 2xl:text-6xl">Best Seller</a>
+                <div class="group swiper-container">
+                    <div class="swiper-wrapper xl:py-36">
+                    <div class="swiper-slide flex justify-center gap-36">
                             <!-- Card 1 -->
-                            <div class="bg-yellow-400 p-6 rounded-lg shadow-md w-64 flex-shrink-0">
-                                <div class="bg-green-700 rounded-full h-16 w-16 mb-4"></div>
-                                <div class="flex items-center mb-4">
-                                    <span class="text-yellow-500 text-xl">&#9733;</span>
-                                    <span class="text-yellow-500 text-xl">&#9733;</span>
-                                    <span class="text-yellow-500 text-xl">&#9733;</span>
-                                    <span class="text-yellow-500 text-xl">&#9733;</span>
-                                    <span class="text-yellow-500 text-xl">&#9733;</span>
+                            <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center">
+                                <div class="bg-green-700 rounded-full h-64 w-64 mb-4"></div>
+                                <div class="flex justify-center mb-4">
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                    <span class="text-yellow text-xl">&#9733;</span>
                                 </div>
-                                <h2 class="text-lg font-semibold mb-2">Amelia Reslie</h2>
-                                <p class="text-gray-700">Fresh flavors, unbeatable quality, and exceptional service!</p>
+                                <h2 class="text-xl font-bold mb-2 text-yellow text-center">Amelia Reslie</h2>
+                                <p class="text-yellow text-xl text-center">Fresh flavors, unbeatable quality, and exceptional service!</p>
                             </div>
                             <!-- Card 2 -->
-                            <div class="bg-yellow-50 p-6 rounded-lg shadow-md w-64 flex-shrink-0">
-                                <div class="bg-green-700 rounded-full h-16 w-16 mb-4"></div>
-                                <div class="flex items-center mb-4">
-                                    <span class="text-yellow-500 text-xl">&#9733;</span>
-                                    <span class="text-yellow-500 text-xl">&#9733;</span>
-                                    <span class="text-yellow-500 text-xl">&#9733;</span>
-                                    <span class="text-yellow-500 text-xl">&#9733;</span>
-                                    <span class="text-yellow-500 text-xl">&#9734;</span>
+                            <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center">
+                                <div class="bg-green-700 rounded-full h-64 w-64 mb-4"></div>
+                                <div class="flex justify-center mb-4">
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                    <span class="text-yellow text-xl">&#9733;</span>
                                 </div>
-                                <h2 class="text-lg font-semibold mb-2">Leo Ong</h2>
-                                <p class="text-gray-700">Consistently delicious juices and impeccable service.</p>
+                                <h2 class="text-xl font-bold mb-2 text-yellow text-center">Leo Ong</h2>
+                                <p class="text-yellow text-center">Consistently delicious juices and impeccable service.</p>
                             </div>
                             <!-- Card 3 -->
-                            <div class="bg-yellow-50 p-6 rounded-lg shadow-md w-64 flex-shrink-0">
-                                <div class="bg-green-700 rounded-full h-16 w-16 mb-4"></div>
-                                <div class="flex items-center mb-4">
-                                    <span class="text-yellow-500 text-xl">&#9733;</span>
-                                    <span class="text-yellow-500 text-xl">&#9733;</span>
-                                    <span class="text-yellow-500 text-xl">&#9733;</span>
-                                    <span class="text-yellow-500 text-xl">&#9733;</span>
-                                    <span class="text-yellow-500 text-xl">&#9733;</span>
+                            <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center">
+                                <div class="bg-green-700 rounded-full h-64 w-64 mb-4"></div>
+                                <div class="flex justify-center mb-4">
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                    <span class="text-yellow text-xl">&#9733;</span>
                                 </div>
-                                <h2 class="text-lg font-semibold mb-2">Kevin Wang</h2>
-                                <p class="text-gray-700">Never fails to impress with their incredible flavors and top-notch quality.</p>
+                                <h2 class="text-xl font-bold mb-2 text-yellow text-center">Kevin Wang</h2>
+                                <p class="text-yellow text-center">Never fails to impress with their incredible flavors and top-notch quality.</p>
                             </div>
                         </div>
-                        <!-- Navigation Buttons -->
-                        <button @click="prev()" class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-yellow-400 p-2 rounded-full shadow-md">Prev</button>
-                        <button @click="next()" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-yellow-400 p-2 rounded-full shadow-md">Next</button>
+                        <div class="swiper-slide flex justify-center gap-36">
+                            <!-- Card 1 -->
+                            <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center">
+                                <div class="bg-green-700 rounded-full h-64 w-64 mb-4"></div>
+                                <div class="flex justify-center mb-4">
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                </div>
+                                <h2 class="text-xl font-bold mb-2 text-yellow text-center">Amelia Reslie</h2>
+                                <p class="text-yellow text-xl text-center">Fresh flavors, unbeatable quality, and exceptional service!</p>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center">
+                                <div class="bg-green-700 rounded-full h-64 w-64 mb-4"></div>
+                                <div class="flex justify-center mb-4">
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                </div>
+                                <h2 class="text-xl font-bold mb-2 text-yellow text-center">Leo Ong</h2>
+                                <p class="text-yellow text-center">Consistently delicious juices and impeccable service.</p>
+                            </div>
+                            <!-- Card 3 -->
+                            <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center">
+                                <div class="bg-green-700 rounded-full h-64 w-64 mb-4"></div>
+                                <div class="flex justify-center mb-4">
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                    <span class="text-yellow text-xl">&#9733;</span>
+                                </div>
+                                <h2 class="text-xl font-bold mb-2 text-yellow text-center">Kevin Wang</h2>
+                                <p class="text-yellow text-center">Never fails to impress with their incredible flavors and top-notch quality.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
     </div>
+    <!-- footer -->
+    <footer>
+        <x-footer />
+    </footer>
 
     <script src="{{ mix('js/app.js') }}"></script>
     <script>
@@ -186,8 +224,4 @@
         });
     </script>
 </body>
-    <!-- footer -->
-    <footer>
-        <x-footer />
-    </footer>
 </html>

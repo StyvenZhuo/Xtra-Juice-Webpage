@@ -15,18 +15,20 @@
             <div class="sm:hidden mx-auto">
                 <img src="{{ asset('storage/images/contactxtra.png') }}" alt="ellipse" class="h-60  hover:underline"/> 
             </div>
-            <div class="mt-0 sm:mt-0 mx-8 md:ml-48 xl:ml-52 text-center sm:text-left">
-                <div class="mx-auto sm:-ml-24 lg:ml-4">
-                    <h1 class="text-6xl sm:text-3xl md:text-4xl font-bold font-sans text-hijau tracking-wider">Contact Us</h1>
-                    <img src="{{ asset('storage/images/Line.png') }}" alt="" class="mx-auto sm:-ml-0 my-4">
-                </div>
-                <div class="mt-2 sm:-ml-24 lg:ml-4">
-                    <p class="text-3xl md:text-2xl text-hijau tracking-widen italic">+62-1234-5678-910</p>
-                    <p class="mt-4 text-xl md:text-2xl text-hijau font-semibold tracking-widen">Baloi-Sei Ladi, Jl. Gajah Mada, Tiban Indah, Kec.Sekupang, Kota Batam, Kepulauan Riau 29426</p>
-                </div>
-                <div class="flex justify-center gap-4 md:mt-5 md:-ml-96 xl:mr-60 tracking-wider mt-3 text-md md:text-xl">
-                    <img src="{{ asset('storage/images/whatsapp.png') }}" alt="ellipse" class="size-12 md:size-16  hover:underline"/>
-                    <img src="{{ asset('storage/images/instagram.png') }}" alt="ellipse" class="size-12 md:size-16 hover:underline"/>
+            <div class="">
+                <div class="mt-0 sm:mx-24 xl:mx-48 sm: text-center sm:text-left gap-4">
+                    <div class="mx-auto">
+                        <h1 class="text-6xl sm:text-3xl md:text-4xl font-bold font-sans text-hijau tracking-wider">Contact Us</h1>
+                        <img src="{{ asset('storage/images/Line.png') }}" alt="" class="mx-auto sm:-ml-0 my-4">
+                    </div>
+                    <div class="flex-col mt-2">
+                        <p class="text-3xl md:text-2xl text-hijau tracking-widen italic">+62-1234-5678-910</p>
+                        <p class="mt-4 mx-12 sm:mx-auto text-xl md:text-2xl text-hijau font-semibold tracking-widen">Baloi-Sei Ladi, Jl. Gajah Mada, Tiban Indah, Kec.Sekupang, Kota Batam, Kepulauan Riau 29426</p>
+                        <div class="flex justify-center sm:justify-start gap-3 mt-3">
+                            <img src="{{ asset('storage/images/whatsapp.png') }}" alt="ellipse" class="size-12 md:size-16  hover:underline"/>
+                            <img src="{{ asset('storage/images/instagram.png') }}" alt="ellipse" class="size-12 md:size-16 hover:underline"/>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -105,4 +105,13 @@ class ProductController extends Controller
  
         return redirect()->route('products')->with('success', 'product deleted successfully');
     }
+
+    public function showMenu()
+    {
+        // Fetch products 
+        $product = Product::all();
+        return view('menu', compact('product'));
+    }
+
+    
 }

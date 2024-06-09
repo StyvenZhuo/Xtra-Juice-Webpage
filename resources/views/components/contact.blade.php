@@ -32,7 +32,7 @@
                 </div>
             </div>
         </div>
-        <div class="mt-24 size-11/12 lg:size-6/12 xl:size-4/12 md:-mt-16 sm:mt-0 md:mx-8 md:mr-6 lg:mr-36 xl:mr-44 hidden sm:block">
+        <div class="mt-24 size-11/12 lg:size-6/12 xl:size-4/12 md:-mt-16 sm:-mt-12 md:mx-8 md:mr-6 lg:mr-36 xl:mr-44 hidden sm:block">
             <img src="{{ asset('storage/images/contactxtra.png') }}" alt="ellipse" class="hover:underline"/>
         </div>
     </section>

@@ -15,7 +15,7 @@
 $product = App\Models\Product::all()
 @endphp
 
-<body class="bg-yellow w-full max-w-screen-2xl mx-auto">
+<body class="bg-yellow w-full">
 
     <!-- nav -->
     <header>
@@ -24,9 +24,9 @@ $product = App\Models\Product::all()
 
     <!-- 1 -->
     <section class="container flex mx-auto -mt-28 sm:mt-28 ">
-        <div class="flex flex-col xl:mx-36">
+        <div class="flex flex-col xl:mx-24">
             <div class="sm:hidden mx-auto mt-8">
-                <img src="{{ asset('storage/images/menupic.png') }}" alt="ellipse" class="h-[200px] hover:underline"/> 
+                <img src="{{ asset('storage/images/menupic.png') }}" alt="ellipse" class="h-[180px] hover:underline"/> 
             </div>
             <div class="mt-1 mx-12 sm:mx-12 sm:mt-0 md:mx-4 xl:ml-8 sm:-mr-0 md:-mr-0 text-center sm:text-left ">
                 <div class="mx-auto md:ml-0 lg:ml-4">
@@ -113,27 +113,6 @@ $product = App\Models\Product::all()
                         <div class="text-center">Product not found, please include them in database with "BV" in $id_product</div>
                 @endif
             </div>
-                    <!-- 2 -->
-                    <!-- <div class="flex justify-center justify-between md:mx-16 mt-16">
-                        <img src="{{ asset('storage/images/avocadojuice.png') }}" alt="ellipse" class="md:h-60 lg:h-72 xl:h-60 hover:underline"/>
-                        <img src="{{ asset('storage/images/lemonjuice.png') }}" alt="ellipse" class="md:h-60 lg:h-72 xl:h-60 lg:px-4 lg:py-2 hover:underline"/>
-                        <img src="{{ asset('storage/images/mangojuice.png') }}" alt="ellipse" class="md:h-60 lg:h-72 xl:h-60 lg:px-4 lg:py-2 hover:underline"/>
-                        <img src="{{ asset('storage/images/cornjuice.png') }}" alt="ellipse" class="md:h-60 lg:h-72 xl:h-60 lg:px-4 lg:py-2 hover:underline"/>
-                    </div>
-                    <div class="justify-center justify-between md:mx-16 lg:mx-24 xl:mx-24">
-                            <ul class="flex justify-center justify-between text-hijau text-2xl md:mx-3 font-bold mt-2">
-                                <li class="">Avocado Juice</li>
-                                <li class="">Lemon Juice</li>
-                                <li class="">Mango Juice</li>
-                                <li class="">Corn Juice</li>
-                            </ul>
-                            <ul class="flex justify-center text-hijau text-2xl font-base justify-between md:mx-6 mt-2">
-                                <li class="">Rp 10.000,-</li>
-                                <li class="">Rp 10.000,-</li>
-                                <li class="">Rp 10.000,-</li>
-                                <li class="">Rp 10.000,-</li>
-                            </ul>
-                    </div> -->
         </div>
     </div>
 

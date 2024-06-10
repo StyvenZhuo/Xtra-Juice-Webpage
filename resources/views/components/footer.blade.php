@@ -7,13 +7,13 @@
 </head>
 <body>
   <footer class="pt-[4rem] pb-[2rem] bg-hijau">
-    <div class="grid border-b-[1px] pb-[6rem] grid-cols-1 lg:grid-cols-1 md:grid-cols-1 w-[80%] mx-auto">
+    <div class="grid border-b-[1px] pb-[5rem] grid-cols-1 lg:grid-cols-1 md:grid-cols-1 w-[80%] mx-auto">
       <div class="flex items-center">
         <div class=" flex items-center justify-center">
           <img src="{{ asset('storage/images/map1.png') }}" alt="ellipse" class="h-[100px] w-[150px] md:h-[140px] md:w-[240px] lg:h-[200px] lg:w-[200px] hover:underline"/>
         </div>
         <div class="text-white ml-4">
-            <h1 class="text-xl sm:text-4xl xl:text-6xl font-bold text-left tracking-wider">Kantin Universitas Internasional</h1>
+            <h1 class="text-xl sm:text-4xl xl:text-5xl font-bold text-left tracking-wider">Kantin Universitas Internasional</h1>
             <p class="text-md sm:text-2xl xl:text-3xl">Baloi-Sei Ladi, Jl. Gajah Mada, Tiban Indah, Kec. Sekupang, Kota Batam, Kepulauan Riau 29426</p>
         </div>
         <div class="flex mt-40 lg:mt-56 gap-2">

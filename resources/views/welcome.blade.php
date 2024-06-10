@@ -206,11 +206,11 @@
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
                                         <img src="{{ asset('storage/images/1.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person1">
                                         <div class="flex justify-center mb-4">
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
                                         </div>
                                         <h2 class="text-xl font-bold mb-2 text-yellow text-center">Amelia Reslie</h2>
                                         <p class="text-yellow text-xl text-center">Fresh flavors, unbeatable quality, and exceptional service!</p>
@@ -220,11 +220,11 @@
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
                                         <img src="{{ asset('storage/images/2.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person2">
                                         <div class="flex justify-center mb-4">
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
+                                        <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
                                         </div>
                                         <h2 class="text-xl font-bold mb-2 text-yellow text-center">Leo Ong</h2>
                                         <p class="text-yellow text-center">Consistently delicious juices and impeccable service.</p>
@@ -234,11 +234,11 @@
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
                                         <img src="{{ asset('storage/images/3.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person3">
                                         <div class="flex justify-center mb-4">
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
+                                        <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
                                         </div>
                                         <h2 class="text-xl font-bold mb-2 text-yellow text-center">Jesika</h2>
                                         <p class="text-yellow text-center">Never fails to impress with their incredible flavors and top-notch quality.</p>
@@ -248,11 +248,11 @@
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
                                         <img src="{{ asset('storage/images/4.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person3">
                                         <div class="flex justify-center mb-4">
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
                                         </div>
                                         <h2 class="text-xl font-bold mb-2 text-yellow text-center">Sherly</h2>
                                         <p class="text-yellow text-center">Never fails to impress with their incredible flavors and top-notch quality.</p>
@@ -262,11 +262,11 @@
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
                                         <img src="{{ asset('storage/images/5.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person3">
                                         <div class="flex justify-center mb-4">
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
                                         </div>
                                         <h2 class="text-xl font-bold mb-2 text-yellow text-center">Cristine Mulia Hakim</h2>
                                         <p class="text-yellow text-center">Never fails to impress with their incredible flavors and top-notch quality.</p>
@@ -278,11 +278,11 @@
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
                                         <img src="{{ asset('storage/images/6.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person4">
                                         <div class="flex justify-center mb-4">
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
                                         </div>
                                         <h2 class="text-xl font-bold mb-2 text-yellow text-center">Helen Febriana</h2>
                                         <p class="text-yellow text-xl text-center">Fresh flavors, unbeatable quality, and exceptional service!</p>
@@ -292,11 +292,11 @@
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
                                         <img src="{{ asset('storage/images/9.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person5">
                                         <div class="flex justify-center mb-4">
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
                                         </div>
                                         <h2 class="text-xl font-bold mb-2 text-yellow text-center">Derrick</h2>
                                         <p class="text-yellow text-center">Consistently delicious juices and impeccable service.</p>
@@ -306,11 +306,11 @@
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
                                         <img src="{{ asset('storage/images/12.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person6">
                                         <div class="flex justify-center mb-4">
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
                                         </div>
                                         <h2 class="text-xl font-bold mb-2 text-yellow text-center">Styven</h2>
                                         <p class="text-yellow text-center">Never fails to impress with their incredible flavors and top-notch quality.</p>
@@ -320,11 +320,11 @@
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
                                         <img src="{{ asset('storage/images/11.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person3">
                                         <div class="flex justify-center mb-4">
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
                                         </div>
                                         <h2 class="text-xl font-bold mb-2 text-yellow text-center">Jenifer</h2>
                                         <p class="text-yellow text-center">Never fails to impress with their incredible flavors and top-notch quality.</p>
@@ -334,11 +334,11 @@
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
                                         <img src="{{ asset('storage/images/10.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person3">
                                         <div class="flex justify-center mb-4">
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
+                                            <span class="text-amber-300 text-xl">&#9733;</span>
                                         </div>
                                         <h2 class="text-xl font-bold mb-2 text-yellow text-center">Zaynulia Afifa</h2>
                                         <p class="text-yellow text-center">Never fails to impress with their incredible flavors and top-notch quality.</p>

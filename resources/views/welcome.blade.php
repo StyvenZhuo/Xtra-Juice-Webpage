@@ -30,13 +30,6 @@
             width: 100%; /* Lebar penuh */
             height: 100%; /* Tinggi maksimum */
         }
-
-        /* Untuk menangani gambar yang lebih besar dari container */
-        .swiper-slide img {
-            width: 100%;
-            height: 100px;
-        }
-
     </style>
 </head>
 
@@ -70,21 +63,21 @@
                 </div>
                 <!-- pic md-2xl -->
                 <div class="hidden sm:block ">
-                    <img src="{{ asset('storage/images/homepic.png') }}" alt="ellipse" class="h-[600px] w-[750px] -mt-16 2xl:-mt-5 2xl:mr-96 hover:underline"/>
+                    <img src="{{ asset('storage/images/homepic.png') }}" alt="ellipse" class="h-[600px] w-[750px] -mt-16 2xl:mt-8 2xl:mr-96 hover:underline"/>
                 </div>
             </div>
         </div>
 
         <!-- 2 best seller section -->
-        <div class="flex flex-col items-center space-y-10">
+        <div class="flex flex-col items-center 2xl:mt-20 space-y-10">
                 <a class="text-hijau font-bold tracking-wider text-3xl 2xl:text-6xl">Best Seller</a>
                 <div class="group swiper-container">
-                    <div class="swiper-wrapper py-36 gap-8 mx-4">
+                    <div class="swiper-wrapper py-36 gap-24">
                         <div class="swiper-slide">
-                            <div class="flex items-center justify-center ml-12 md:ml-0 sm:gap-24 md:gap-44 2xl:text-2xl">
-                                <ul class="text-center text-hijau my-2">
+                            <div class="flex items-center justify-center gap-12">
+                                <ul class="text-center text-hijau font-bold my-2 text-lg">
                                     <li>
-                                        <img class="w-[220px] h-[220px]" src="{{ asset('storage/images/orangejuice1.png') }}" />
+                                        <img class="w-[100%] h-[100%]" src="{{ asset('storage/images/orangejuice1.png') }}" />
                                     </li>
                                     <li class="">
                                         Orange Juice
@@ -93,9 +86,9 @@
                                         Rp. 10.000
                                     </li>
                                 </ul>
-                                <ul class="text-center text-hijau my-2">
+                                <ul class="text-center text-hijau font-bold my-2 text-lg">
                                     <li>
-                                        <img class="w-[220px] h-[220px]" src="{{ asset('storage/images/greenapplejuice.png') }}" />
+                                        <img class="w-[100%] h-[100%]" src="{{ asset('storage/images/greenapplejuice.png') }}" />
                                     </li>
                                     <li class="">
                                         Avocado Juice
@@ -104,9 +97,9 @@
                                         Rp. 10.000
                                     </li>
                                 </ul>
-                                <ul class="text-center text-hijau my-2">
+                                <ul class="text-center text-hijau font-bold my-2 text-lg">
                                     <li>
-                                        <img class="w-[220px] h-[220px]" src="{{ asset('storage/images/watermelonjuice.png') }}" />
+                                        <img class="w-[100%] h-[100%]" src="{{ asset('storage/images/watermelonjuice.png') }}" />
                                     </li>
                                     <li class="">
                                         Watermelon Juice
@@ -115,9 +108,9 @@
                                         Rp. 10.000
                                     </li>
                                 </ul>
-                                <ul class="text-center text-hijau my-2">
+                                <ul class="text-center text-hijau font-bold my-2 text-lg">
                                     <li>
-                                        <img class="w-[220px] h-[220px]" src="{{ asset('storage/images/strawberryjuice.png') }}" />
+                                        <img class="w-[100%] h-[100%]" src="{{ asset('storage/images/strawberryjuice.png') }}" />
                                     </li>
                                     <li class="">
                                         Strawberry Juice
@@ -126,9 +119,9 @@
                                         Rp. 10.000
                                     </li>
                                 </ul>
-                                <ul class="text-center text-hijau my-2">
+                                <ul class="text-center text-hijau font-bold my-2 text-lg">
                                     <li>
-                                        <img class="w-[220px] h-[220px]" src="{{ asset('storage/images/lemonjuice.png') }}" />
+                                        <img class="w-[100%] h-[100%]" src="{{ asset('storage/images/lemonjuice.png') }}" />
                                     </li>
                                     <li class="">
                                         Lemon Juice
@@ -140,10 +133,10 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="flex items-center justify-center ml-12 md:ml-0 sm:gap-24 md:gap-48 2xl:text-2xl">
-                                    <ul class="text-center text-hijau my-2">
+                            <div class="flex items-center justify-center gap-12">
+                                    <ul class="text-center text-hijau font-bold my-2">
                                         <li>
-                                            <img class="h-[80px] w-[80px]" src="{{ asset('storage/images/cheesehotdog.png') }}" />
+                                            <img class="w-[100%] h-[100%]" src="{{ asset('storage/images/cheesehotdog.png') }}" />
                                         </li>
                                         <li class="">
                                             Cheese Hotdog
@@ -152,20 +145,20 @@
                                             Rp. 10.000
                                         </li>
                                     </ul>
-                                    <ul class="text-center text-hijau my-2">
+                                    <ul class="text-center text-hijau font-bold my-2 text-lg">
                                         <li>
-                                            <img class="h-[80px] w-[80px]" src="{{ asset('storage/images/chickenburger.png') }}" />
+                                            <img class="w-[100%] h-[100%]" src="{{ asset('storage/images/chickenburger.png') }}" />
                                         </li>
-                                        <li class="2xl:-mt-12">
+                                        <li class="-mt-4 sm:-mt-6 md:-mt-10 2xl:-mt-12">
                                             Chicken Burger
                                         </li>
                                         <li class="">
                                             Rp. 13.000
                                         </li>
                                     </ul>
-                                    <ul class="text-center text-hijau my-2">
+                                    <ul class="text-center text-hijau font-bold my-2 text-lg">
                                         <li>
-                                            <img class="h-[80px] w-[80px]" src="{{ asset('storage/images/chickencheeseburger.png') }}" />
+                                            <img class="w-[100%] h-[100%]" src="{{ asset('storage/images/chickencheeseburger.png') }}" />
                                         </li>
                                         <li class="">
                                             Chicken Cheese Burger
@@ -174,22 +167,22 @@
                                             Rp. 17.000
                                         </li>
                                     </ul>
-                                    <ul class="text-center text-hijau my-2">
+                                    <ul class="text-center text-hijau font-bold my-2 text-lg">
                                         <li>
-                                            <img class="h-[80px] w-[80px]" src="{{ asset('storage/images/completeburger.png') }}" />
+                                            <img class="w-[100%] h-[100%]" src="{{ asset('storage/images/completeburger.png') }}" />
                                         </li>
-                                        <li class="2xl:-mt-12">
+                                        <li class="-mt-4 md:-mt-10 2xl:-mt-12">
                                             Complete Burger
                                         </li>
                                         <li class="">
                                             Rp. 20.000
                                         </li>
                                     </ul>
-                                    <ul class="text-center text-hijau my-2">
+                                    <ul class="text-center text-hijau font-bold my-2 text-lg">
                                         <li>
-                                            <img class="h-[80px] w-[80px]" src="{{ asset('storage/images/completehotdog.png') }}" />
+                                            <img class="w-[100%] h-[100%]" src="{{ asset('storage/images/completehotdog.png') }}" />
                                         </li>
-                                        <li class="2xl:-mt-10">
+                                        <li class="-mt-3 md:-mt-8 2xl:-mt-10">
                                             Complete Hotdog
                                         </li>
                                         <li class="">
@@ -202,16 +195,16 @@
                     </div>
                 </div>
 
-            <!-- 4 review -->
+            <!-- 4 review section -->
             <div class="flex flex-col items-center xl:h-relative overflow-hidden space-y-10 my-14 py-60 2xl:mt-4 2xl:py-36">
-                    <a class="text-hijau font-bold tracking-wider text-3xl 2xl:text-6xl">Best Seller</a>
+                    <a class="text-hijau font-bold tracking-wider text-3xl 2xl:text-6xl">Review</a>
                     <div class="group swiper-container">
-                        <div class="swiper-wrapper py-24 xl:py-36">
-                            <div class="swiper-slide flex justify-center ml-52 gap-2 md:gap-60 xl:gap-80">
+                        <div class="swiper-wrapper py-24 xl:py-36 gap-[1000px] sm:gap-[700px] xl:gap-[450px]">
+                            <div class="swiper-slide flex justify-center gap-0 xl:gap-24">
                                     <!-- Card 1 -->
                                     <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
-                                        <img src="{{ asset('storage/images/person11.jpeg') }}" class="h-[20px] w-[20px] rounded-full -mt-28" alt="person1">
+                                        <img src="{{ asset('storage/images/person11.jpeg') }}" class="h-[20px] w-[20px] rounded-full mx-auto -mt-28" alt="person1">
                                         <div class="flex justify-center mb-4">
                                             <span class="text-yellow text-xl">&#9733;</span>
                                             <span class="text-yellow text-xl">&#9733;</span>
@@ -225,7 +218,7 @@
                                     <!-- Card 2 -->
                                     <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
-                                        <img src="{{ asset('storage/images/person2.jpg') }}" class="h-[20px] w-[20px] rounded-full -mt-28" alt="person2">
+                                        <img src="{{ asset('storage/images/person2.jpg') }}" class="h-[20px] w-[20px] rounded-full mx-auto -mt-28" alt="person2">
                                         <div class="flex justify-center mb-4">
                                             <span class="text-yellow text-xl">&#9733;</span>
                                             <span class="text-yellow text-xl">&#9733;</span>
@@ -239,7 +232,7 @@
                                     <!-- Card 3 -->
                                     <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
-                                        <img src="{{ asset('storage/images/person3.jpg') }}" class="h-[20px] w-[20px] rounded-full -mt-28" alt="person3">
+                                        <img src="{{ asset('storage/images/person3.jpg') }}" class="h-[20px] w-[20px] rounded-full mx-auto -mt-28" alt="person3">
                                         <div class="flex justify-center mb-4">
                                             <span class="text-yellow text-xl">&#9733;</span>
                                             <span class="text-yellow text-xl">&#9733;</span>
@@ -250,40 +243,10 @@
                                         <h2 class="text-xl font-bold mb-2 text-yellow text-center">Kevin Wang</h2>
                                         <p class="text-yellow text-center">Never fails to impress with their incredible flavors and top-notch quality.</p>
                                     </div>
-                                </div>
-                                <div class="swiper-slide flex justify-center ml-72 gap-24 md:gap-60 xl:gap-80">
-                                    <!-- Card 1 -->
-                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center">
+                                    <!-- Card 4 -->
+                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
-                                        <img src="{{ asset('storage/images/person4.jpg') }}" class="h-[20px] w-[20px] rounded-full -mt-28" alt="person4">
-                                        <div class="flex justify-center mb-4">
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                        </div>
-                                        <h2 class="text-xl font-bold mb-2 text-yellow text-center">Amelia Reslie</h2>
-                                        <p class="text-yellow text-xl text-center">Fresh flavors, unbeatable quality, and exceptional service!</p>
-                                    </div>
-                                    <!-- Card 2 -->
-                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center">
-                                        <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
-                                        <img src="{{ asset('storage/images/person5.jpg') }}" class="h-[20px] w-[20px] rounded-full -mt-28" alt="person5">
-                                        <div class="flex justify-center mb-4">
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                            <span class="text-yellow text-xl">&#9733;</span>
-                                        </div>
-                                        <h2 class="text-xl font-bold mb-2 text-yellow text-center">Leo Ong</h2>
-                                        <p class="text-yellow text-center">Consistently delicious juices and impeccable service.</p>
-                                    </div>
-                                    <!-- Card 3 -->
-                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center">
-                                        <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
-                                        <img src="{{ asset('storage/images/person6.jpg') }}" class="h-[20px] w-[20px] rounded-full -mt-28" alt="person6">
+                                        <img src="{{ asset('storage/images/person3.jpg') }}" class="h-[20px] w-[20px] rounded-full mx-auto -mt-28" alt="person3">
                                         <div class="flex justify-center mb-4">
                                             <span class="text-yellow text-xl">&#9733;</span>
                                             <span class="text-yellow text-xl">&#9733;</span>
@@ -292,6 +255,92 @@
                                             <span class="text-yellow text-xl">&#9733;</span>
                                         </div>
                                         <h2 class="text-xl font-bold mb-2 text-yellow text-center">Kevin Wang</h2>
+                                        <p class="text-yellow text-center">Never fails to impress with their incredible flavors and top-notch quality.</p>
+                                    </div>
+                                    <!-- Card 5 -->
+                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
+                                        <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
+                                        <img src="{{ asset('storage/images/person3.jpg') }}" class="h-[20px] w-[20px] rounded-full mx-auto -mt-28" alt="person3">
+                                        <div class="flex justify-center mb-4">
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                        </div>
+                                        <h2 class="text-xl font-bold mb-2 text-yellow text-center">Cristine Mulia Hakim</h2>
+                                        <p class="text-yellow text-center">Never fails to impress with their incredible flavors and top-notch quality.</p>
+                                    </div>
+                            </div>
+                                <div class="swiper-slide flex justify-center gap-10 sm:gap-24 xl:gap-48">
+                                    <!-- Card 1 -->
+                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center">
+                                        <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
+                                        <img src="{{ asset('storage/images/person4.jpg') }}" class="h-[20px] w-[20px] rounded-full mx-auto -mt-28" alt="person4">
+                                        <div class="flex justify-center mb-4">
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                        </div>
+                                        <h2 class="text-xl font-bold mb-2 text-yellow text-center">Helen Febriana</h2>
+                                        <p class="text-yellow text-xl text-center">Fresh flavors, unbeatable quality, and exceptional service!</p>
+                                    </div>
+                                    <!-- Card 2 -->
+                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center">
+                                        <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
+                                        <img src="{{ asset('storage/images/person5.jpg') }}" class="h-[20px] w-[20px] rounded-full mx-auto -mt-28" alt="person5">
+                                        <div class="flex justify-center mb-4">
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                        </div>
+                                        <h2 class="text-xl font-bold mb-2 text-yellow text-center">Derrick</h2>
+                                        <p class="text-yellow text-center">Consistently delicious juices and impeccable service.</p>
+                                    </div>
+                                    <!-- Card 3 -->
+                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center">
+                                        <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
+                                        <img src="{{ asset('storage/images/person6.jpg') }}" class="h-[20px] w-[20px] rounded-full mx-auto -mt-28" alt="person6">
+                                        <div class="flex justify-center mb-4">
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                        </div>
+                                        <h2 class="text-xl font-bold mb-2 text-yellow text-center">Styven</h2>
+                                        <p class="text-yellow text-center">Never fails to impress with their incredible flavors and top-notch quality.</p>
+                                    </div>
+                                    <!-- Card 4 -->
+                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
+                                        <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
+                                        <img src="{{ asset('storage/images/person3.jpg') }}" class="h-[20px] w-[20px] rounded-full mx-auto -mt-28" alt="person3">
+                                        <div class="flex justify-center mb-4">
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                        </div>
+                                        <h2 class="text-xl font-bold mb-2 text-yellow text-center">Jenifer</h2>
+                                        <p class="text-yellow text-center">Never fails to impress with their incredible flavors and top-notch quality.</p>
+                                    </div>
+                                    <!-- Card 5 -->
+                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
+                                        <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
+                                        <img src="{{ asset('storage/images/person3.jpg') }}" class="h-[20px] w-[20px] rounded-full mx-auto -mt-28" alt="person3">
+                                        <div class="flex justify-center mb-4">
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                            <span class="text-yellow text-xl">&#9733;</span>
+                                        </div>
+                                        <h2 class="text-xl font-bold mb-2 text-yellow text-center">Zaynulia Afifa</h2>
                                         <p class="text-yellow text-center">Never fails to impress with their incredible flavors and top-notch quality.</p>
                                     </div>
                                 </div>

@@ -204,7 +204,7 @@
                                     <!-- Card 1 -->
                                     <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
-                                        <img src="{{ asset('storage/images/person11.jpeg') }}" class="h-[20px] w-[20px] rounded-full mx-auto -mt-28" alt="person1">
+                                        <img src="{{ asset('storage/images/1.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person1">
                                         <div class="flex justify-center mb-4">
                                             <span class="text-yellow text-xl">&#9733;</span>
                                             <span class="text-yellow text-xl">&#9733;</span>
@@ -218,7 +218,7 @@
                                     <!-- Card 2 -->
                                     <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
-                                        <img src="{{ asset('storage/images/person2.jpg') }}" class="h-[20px] w-[20px] rounded-full mx-auto -mt-28" alt="person2">
+                                        <img src="{{ asset('storage/images/2.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person2">
                                         <div class="flex justify-center mb-4">
                                             <span class="text-yellow text-xl">&#9733;</span>
                                             <span class="text-yellow text-xl">&#9733;</span>
@@ -232,7 +232,7 @@
                                     <!-- Card 3 -->
                                     <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
-                                        <img src="{{ asset('storage/images/person3.jpg') }}" class="h-[20px] w-[20px] rounded-full mx-auto -mt-28" alt="person3">
+                                        <img src="{{ asset('storage/images/3.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person3">
                                         <div class="flex justify-center mb-4">
                                             <span class="text-yellow text-xl">&#9733;</span>
                                             <span class="text-yellow text-xl">&#9733;</span>
@@ -240,13 +240,13 @@
                                             <span class="text-yellow text-xl">&#9733;</span>
                                             <span class="text-yellow text-xl">&#9733;</span>
                                         </div>
-                                        <h2 class="text-xl font-bold mb-2 text-yellow text-center">Kevin Wang</h2>
+                                        <h2 class="text-xl font-bold mb-2 text-yellow text-center">Jesika</h2>
                                         <p class="text-yellow text-center">Never fails to impress with their incredible flavors and top-notch quality.</p>
                                     </div>
                                     <!-- Card 4 -->
                                     <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
-                                        <img src="{{ asset('storage/images/person3.jpg') }}" class="h-[20px] w-[20px] rounded-full mx-auto -mt-28" alt="person3">
+                                        <img src="{{ asset('storage/images/4.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person3">
                                         <div class="flex justify-center mb-4">
                                             <span class="text-yellow text-xl">&#9733;</span>
                                             <span class="text-yellow text-xl">&#9733;</span>
@@ -254,13 +254,13 @@
                                             <span class="text-yellow text-xl">&#9733;</span>
                                             <span class="text-yellow text-xl">&#9733;</span>
                                         </div>
-                                        <h2 class="text-xl font-bold mb-2 text-yellow text-center">Kevin Wang</h2>
+                                        <h2 class="text-xl font-bold mb-2 text-yellow text-center">Sherly</h2>
                                         <p class="text-yellow text-center">Never fails to impress with their incredible flavors and top-notch quality.</p>
                                     </div>
                                     <!-- Card 5 -->
                                     <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
-                                        <img src="{{ asset('storage/images/person3.jpg') }}" class="h-[20px] w-[20px] rounded-full mx-auto -mt-28" alt="person3">
+                                        <img src="{{ asset('storage/images/5.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person3">
                                         <div class="flex justify-center mb-4">
                                             <span class="text-yellow text-xl">&#9733;</span>
                                             <span class="text-yellow text-xl">&#9733;</span>
@@ -276,7 +276,7 @@
                                     <!-- Card 1 -->
                                     <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
-                                        <img src="{{ asset('storage/images/person4.jpg') }}" class="h-[20px] w-[20px] rounded-full mx-auto -mt-28" alt="person4">
+                                        <img src="{{ asset('storage/images/6.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person4">
                                         <div class="flex justify-center mb-4">
                                             <span class="text-yellow text-xl">&#9733;</span>
                                             <span class="text-yellow text-xl">&#9733;</span>
@@ -290,7 +290,7 @@
                                     <!-- Card 2 -->
                                     <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
-                                        <img src="{{ asset('storage/images/person5.jpg') }}" class="h-[20px] w-[20px] rounded-full mx-auto -mt-28" alt="person5">
+                                        <img src="{{ asset('storage/images/9.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person5">
                                         <div class="flex justify-center mb-4">
                                             <span class="text-yellow text-xl">&#9733;</span>
                                             <span class="text-yellow text-xl">&#9733;</span>
@@ -304,7 +304,7 @@
                                     <!-- Card 3 -->
                                     <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
-                                        <img src="{{ asset('storage/images/person6.jpg') }}" class="h-[20px] w-[20px] rounded-full mx-auto -mt-28" alt="person6">
+                                        <img src="{{ asset('storage/images/12.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person6">
                                         <div class="flex justify-center mb-4">
                                             <span class="text-yellow text-xl">&#9733;</span>
                                             <span class="text-yellow text-xl">&#9733;</span>
@@ -318,7 +318,7 @@
                                     <!-- Card 4 -->
                                     <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
-                                        <img src="{{ asset('storage/images/person3.jpg') }}" class="h-[20px] w-[20px] rounded-full mx-auto -mt-28" alt="person3">
+                                        <img src="{{ asset('storage/images/11.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person3">
                                         <div class="flex justify-center mb-4">
                                             <span class="text-yellow text-xl">&#9733;</span>
                                             <span class="text-yellow text-xl">&#9733;</span>
@@ -332,7 +332,7 @@
                                     <!-- Card 5 -->
                                     <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
-                                        <img src="{{ asset('storage/images/person3.jpg') }}" class="h-[20px] w-[20px] rounded-full mx-auto -mt-28" alt="person3">
+                                        <img src="{{ asset('storage/images/10.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person3">
                                         <div class="flex justify-center mb-4">
                                             <span class="text-yellow text-xl">&#9733;</span>
                                             <span class="text-yellow text-xl">&#9733;</span>

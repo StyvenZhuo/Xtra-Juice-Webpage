@@ -196,7 +196,7 @@
                 </div>
 
             <!-- 4 review section -->
-            <div class="flex flex-col items-center xl:h-relative overflow-hidden space-y-10 my-14 py-60 2xl:mt-4 2xl:py-36">
+            <div class="flex flex-col items-center xl:h-relative overflow-hidden space-y-10 my-14 py-28 2xl:mt-4 2xl:py-36">
                     <a class="text-hijau font-bold tracking-wider text-3xl 2xl:text-6xl">Review</a>
                     <div class="group swiper-container">
                         <div class="swiper-wrapper py-24 xl:py-36 gap-[1000px] sm:gap-[700px] xl:gap-[450px]">
@@ -260,7 +260,7 @@
                                     <!-- Card 5 -->
                                     <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
-                                        <img src="{{ asset('storage/images/5.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person3">
+                                        <img src="{{ asset('storage/images/3.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person3">
                                         <div class="flex justify-center mb-4">
                                             <span class="text-amber-300 text-xl">&#9733;</span>
                                             <span class="text-amber-300 text-xl">&#9733;</span>
@@ -285,7 +285,7 @@
                                             <span class="text-amber-300 text-xl">&#9733;</span>
                                         </div>
                                         <h2 class="text-xl font-bold mb-2 text-yellow text-center">Helen Febriana</h2>
-                                        <p class="text-yellow text-xl text-center">Fresh flavors, unbeatable quality, and exceptional service!</p>
+                                        <p class="text-yellow text-center">Fresh flavors, unbeatable quality, and exceptional service!</p>
                                     </div>
                                     <!-- Card 2 -->
                                     <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center">

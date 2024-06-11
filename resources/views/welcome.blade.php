@@ -199,8 +199,8 @@
             <div class="flex flex-col items-center xl:h-relative overflow-hidden space-y-10 my-14 py-28 2xl:mt-4 2xl:py-36">
                     <a class="text-hijau font-bold tracking-wider text-3xl 2xl:text-6xl uppercase">Review</a>
                     <div class="group swiper-container">
-                        <div class="swiper-wrapper py-24 xl:py-36 gap-[1000px] sm:gap-[700px] xl:gap-[450px]">
-                            <div class="swiper-slide flex justify-center gap-10 sm:gap-24 xl:gap-48">
+                        <div class="swiper-wrapper py-24 xl:py-36 gap-[1000px] sm:gap-[800px] lg:gap-[650px] xl:gap-[550px]">
+                            <div class="swiper-slide flex justify-center gap-10 xl:gap-24">
                                     <!-- Card 1 -->
                                     <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>

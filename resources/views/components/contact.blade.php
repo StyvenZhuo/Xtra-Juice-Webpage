@@ -39,30 +39,32 @@
 
 
     <!-- 2 -->
-    <div class="mt-36 text-hijau font-bold text-xl sm:text-2xl md:text-2xl lg:text-3xl text-center md:text-left sm:ml-28 lg:ml-48 tracking-wider">
-        <p>Your opinion is important to us !</p>
-    </div>
-    <div class="flex items-center justify-center mx-36 mb-24">
-        <form action="{{ route('review.save') }}" method="POST" class="mt-20 w-full max-w-lg bg-yellow p-2 rounded-lg items-center right-0 left 0">
-            @csrf
-            <div class="mb-4">
-                <label class="block text-2xl text-hijau font-bold mb-2 tracking-wider" for="name">Name</label>
-                <input class="shadow appearance-none border border-green-500 rounded w-full py-2 px-3 text-hijau leading-tight  focus:outline-none focus:shadow-outline" id="name" name="name" type="text" placeholder="Your Name">
-            </div>
-            <div class="mb-4">
-                <label class="block text-2xl text-hijau font-bold mb-2 tracking-wider" for="email">Email</label>
-                <input class="shadow appearance-none border border-green-500 rounded w-full py-2 px-3 text-hijau leading-tight focus:outline-none focus:shadow-outline" id="email" name="email" type="email" placeholder="Your Email">
-            </div>
-            <div class="mb-4">
-                <label class="block text-2xl text-hijau font-bold mb-2 tracking-wider" for="review">Review</label>
-                <textarea class="shadow appearance-none border border-green-500 rounded w-full py-2 px-3 text-hijau leading-tight focus:outline-none focus:shadow-outline" id="review" name="review" rows="4" placeholder="Your Review"></textarea>
-            </div>
-            <div class="flex items-center justify-end">
-                <button class="ring-lime-600 bg-lime-600 text-white rounded-full font-bold py-2 px-4 focus:outline-none focus:shadow-outline" type="submit">
-                    Submit
-                </button>
-            </div>
-        </form>
+    <div class="py-36">
+        <div class="mt-36 text-hijau font-bold text-xl sm:text-2xl md:text-2xl lg:text-3xl text-center md:text-left sm:ml-28 lg:ml-48 tracking-wider">
+            <p>Your opinion is important to us !</p>
+        </div>
+        <div class="flex items-center justify-center mx-36 mb-24">
+            <form action="{{ route('review.save') }}" method="POST" class="mt-20 w-full max-w-lg bg-yellow p-2 rounded-lg items-center right-0 left 0">
+                @csrf
+                <div class="mb-4">
+                    <label class="block text-2xl text-hijau font-bold mb-2 tracking-wider" for="name">Name</label>
+                    <input class="shadow appearance-none border border-green-500 rounded w-full py-2 px-3 text-hijau leading-tight  focus:outline-none focus:shadow-outline" id="name" name="name" type="text" placeholder="Your Name">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-2xl text-hijau font-bold mb-2 tracking-wider" for="email">Email</label>
+                    <input class="shadow appearance-none border border-green-500 rounded w-full py-2 px-3 text-hijau leading-tight focus:outline-none focus:shadow-outline" id="email" name="email" type="email" placeholder="Your Email">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-2xl text-hijau font-bold mb-2 tracking-wider" for="review">Review</label>
+                    <textarea class="shadow appearance-none border border-green-500 rounded w-full py-2 px-3 text-hijau leading-tight focus:outline-none focus:shadow-outline" id="review" name="review" rows="4" placeholder="Your Review"></textarea>
+                </div>
+                <div class="flex items-center justify-end">
+                    <button class="text-base md:text-xl tracking-wider my-4 border-b-5 border-r-5 b-600 rounded-full border-4 ring ring-hijau bg-hijau text-white box-border h-10 w-20 md:h-12 md:w-36 border-transparent animate-border text-blue-500 font-semibold rounded-lg hover:bg-blue-100 transition duration-300">
+                        Explore
+                    </button>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 </html>

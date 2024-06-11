@@ -54,7 +54,7 @@ $product = App\Models\Product::all()
 
         <!-- Menu mobile mode -->
         <div class="container md:hidden">
-            <div class="text-center justify-center mt-60 text-4xl font-bold text-hijau tracking-widen">
+            <div class="text-center justify-center mt-60 text-4xl font-bold text-hijau tracking-widen uppercase">
                     <h1 class="">Menu</h1>
                 </div>
                 <div class="container mt-8 mx-auto">
@@ -87,7 +87,7 @@ $product = App\Models\Product::all()
                     
         <!-- Menu size sm to lg -->
         <div class="hidden md:block py-60">
-            <div class="text-center justify-center mt-0 text-4xl font-bold text-hijau tracking-wider">
+            <div class="text-center justify-center mt-0 text-4xl font-bold text-hijau tracking-wider uppercase py-12">
                 <h1 class="">Menu</h1>
             </div>
             <div class="container mt-8 mx-auto">

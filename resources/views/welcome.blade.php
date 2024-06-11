@@ -46,15 +46,15 @@
                     <!-- text top -->
                     <div class="container -mt-44 sm:mt-24 sm:mx-28 2xl:mx-0 2xl:mt-48">
                         <div class="text-center sm:text-left sm:mr-24 lg:mr-60 xl:mr-72 2xl:mr-60">
-                            <h1 class="text-3xl sm:text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl font-bold font-sans text-hijau tracking-wider">
+                            <h1 class="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold font-sans text-hijau tracking-wider">
                                 Where Taste and Health Blend Perfectly
                             </h1>
                             <img src="{{ asset('storage/images/Line.png') }}" alt="" class="my-2 mx-auto sm:mx-0">
-                            <p class="text-lg sm:text-lg md:text-xl 2xl:text-4xl text-hijau font-semibold tracking-widen mx-6 sm:mx-0">
+                            <p class="text-lg sm:text-lg md:text-xl 2xl:text-3xl text-hijau font-semibold tracking-widen mx-6 sm:mx-0">
                                 Elevate your wellbeing with every sip, as our handpicked fruits, harmoniously combined to create a deliciously healthy treat for your enjoyment.
                             </p>
-                            <a href="/">
-                            <button class="text-base my-4 border-b-5 border-r-5 b-600 rounded-full border-4 ring ring-hijau bg-hijau text-white box-border h-10 w-20 md:h-12 md:w-36 border-transparent animate-border text-blue-500 font-semibold rounded-lg hover:bg-blue-100 transition duration-300">
+                            <a href="/menu">
+                            <button class="text-base md:text-xl tracking-wider my-4 border-b-5 border-r-5 b-600 rounded-full border-4 ring ring-hijau bg-hijau text-white box-border h-10 w-20 md:h-12 md:w-36 border-transparent animate-border text-blue-500 font-semibold rounded-lg hover:bg-blue-100 transition duration-300">
                                 Explore
                             </button>
                             </a>
@@ -63,14 +63,14 @@
                 </div>
                 <!-- pic md-2xl -->
                 <div class="hidden sm:block ">
-                    <img src="{{ asset('storage/images/homepic.png') }}" alt="ellipse" class="h-[600px] w-[750px] -mt-16 2xl:mt-8 2xl:mr-96 hover:underline"/>
+                    <img src="{{ asset('storage/images/homepic.png') }}" alt="ellipse" class="h-[600px] w-[850px] -mt-16 2xl:mt-8 2xl:mr-96 hover:underline"/>
                 </div>
             </div>
         </div>
 
         <!-- 2 best seller section -->
         <div class="flex flex-col items-center 2xl:mt-20 space-y-10">
-                <a class="text-hijau font-bold tracking-wider text-3xl 2xl:text-6xl">Best Seller</a>
+                <a class="text-hijau font-bold tracking-wider text-3xl 2xl:text-6xl uppercase">Best seller</a>
                 <div class="group swiper-container">
                     <div class="swiper-wrapper py-36 gap-24">
                         <div class="swiper-slide">
@@ -197,10 +197,10 @@
 
             <!-- 4 review section -->
             <div class="flex flex-col items-center xl:h-relative overflow-hidden space-y-10 my-14 py-28 2xl:mt-4 2xl:py-36">
-                    <a class="text-hijau font-bold tracking-wider text-3xl 2xl:text-6xl">Review</a>
+                    <a class="text-hijau font-bold tracking-wider text-3xl 2xl:text-6xl uppercase">Review</a>
                     <div class="group swiper-container">
                         <div class="swiper-wrapper py-24 xl:py-36 gap-[1000px] sm:gap-[700px] xl:gap-[450px]">
-                            <div class="swiper-slide flex justify-center gap-0 xl:gap-24">
+                            <div class="swiper-slide flex justify-center gap-10 sm:gap-24 xl:gap-48">
                                     <!-- Card 1 -->
                                     <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
@@ -213,7 +213,7 @@
                                             <span class="text-amber-300 text-xl">&#9733;</span>
                                         </div>
                                         <h2 class="text-xl font-bold mb-2 text-yellow text-center">Amelia Reslie</h2>
-                                        <p class="text-yellow text-xl text-center">Fresh flavors, unbeatable quality, and exceptional service!</p>
+                                        <p class="text-yellow text-center font-semibold">Fresh flavors, unbeatable quality, and exceptional service!</p>
                                     </div>
                                     <!-- Card 2 -->
                                     <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
@@ -227,7 +227,7 @@
                                             <span class="text-amber-300 text-xl">&#9733;</span>
                                         </div>
                                         <h2 class="text-xl font-bold mb-2 text-yellow text-center">Leo Ong</h2>
-                                        <p class="text-yellow text-center">Consistently delicious juices and impeccable service.</p>
+                                        <p class="text-yellow text-center font-semibold">Consistently delicious juices and impeccable service.</p>
                                     </div>
                                     <!-- Card 3 -->
                                     <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
@@ -241,7 +241,7 @@
                                             <span class="text-amber-300 text-xl">&#9733;</span>
                                         </div>
                                         <h2 class="text-xl font-bold mb-2 text-yellow text-center">Jesika</h2>
-                                        <p class="text-yellow text-center">Never fails to impress with their incredible flavors and top-notch quality.</p>
+                                        <p class="text-yellow text-center font-semibold">Never fails to impress with their incredible flavors and top-notch quality.</p>
                                     </div>
                                     <!-- Card 4 -->
                                     <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
@@ -255,7 +255,7 @@
                                             <span class="text-amber-300 text-xl">&#9733;</span>
                                         </div>
                                         <h2 class="text-xl font-bold mb-2 text-yellow text-center">Sherly</h2>
-                                        <p class="text-yellow text-center">Never fails to impress with their incredible flavors and top-notch quality.</p>
+                                        <p class="text-yellow text-center font-semibold">Never fails to impress with their incredible flavors and top-notch quality.</p>
                                     </div>
                                     <!-- Card 5 -->
                                     <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
@@ -269,12 +269,12 @@
                                             <span class="text-amber-300 text-xl">&#9733;</span>
                                         </div>
                                         <h2 class="text-xl font-bold mb-2 text-yellow text-center">Cristine Mulia Hakim</h2>
-                                        <p class="text-yellow text-center">Never fails to impress with their incredible flavors and top-notch quality.</p>
+                                        <p class="text-yellow text-center font-semibold">Never fails to impress with their incredible flavors and top-notch quality.</p>
                                     </div>
                             </div>
                                 <div class="swiper-slide flex justify-center gap-10 sm:gap-24 xl:gap-48">
                                     <!-- Card 1 -->
-                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center">
+                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center  mx-12">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
                                         <img src="{{ asset('storage/images/6.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person4">
                                         <div class="flex justify-center mb-4">
@@ -285,10 +285,10 @@
                                             <span class="text-amber-300 text-xl">&#9733;</span>
                                         </div>
                                         <h2 class="text-xl font-bold mb-2 text-yellow text-center">Helen Febriana</h2>
-                                        <p class="text-yellow text-center">Fresh flavors, unbeatable quality, and exceptional service!</p>
+                                        <p class="text-yellow text-center font-semibold">Fresh flavors, unbeatable quality, and exceptional service!</p>
                                     </div>
                                     <!-- Card 2 -->
-                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center">
+                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
                                         <img src="{{ asset('storage/images/9.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person5">
                                         <div class="flex justify-center mb-4">
@@ -299,10 +299,10 @@
                                             <span class="text-amber-300 text-xl">&#9733;</span>
                                         </div>
                                         <h2 class="text-xl font-bold mb-2 text-yellow text-center">Derrick</h2>
-                                        <p class="text-yellow text-center">Consistently delicious juices and impeccable service.</p>
+                                        <p class="text-yellow text-center font-semibold">Consistently delicious juices and impeccable service.</p>
                                     </div>
                                     <!-- Card 3 -->
-                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center">
+                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
                                         <img src="{{ asset('storage/images/12.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person6">
                                         <div class="flex justify-center mb-4">
@@ -313,7 +313,7 @@
                                             <span class="text-amber-300 text-xl">&#9733;</span>
                                         </div>
                                         <h2 class="text-xl font-bold mb-2 text-yellow text-center">Styven</h2>
-                                        <p class="text-yellow text-center">Never fails to impress with their incredible flavors and top-notch quality.</p>
+                                        <p class="text-yellow text-center font-semibold">Never fails to impress with their incredible flavors and top-notch quality.</p>
                                     </div>
                                     <!-- Card 4 -->
                                     <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
@@ -327,7 +327,7 @@
                                             <span class="text-amber-300 text-xl">&#9733;</span>
                                         </div>
                                         <h2 class="text-xl font-bold mb-2 text-yellow text-center">Jenifer</h2>
-                                        <p class="text-yellow text-center">Never fails to impress with their incredible flavors and top-notch quality.</p>
+                                        <p class="text-yellow text-center font-semibold">Never fails to impress with their incredible flavors and top-notch quality.</p>
                                     </div>
                                     <!-- Card 5 -->
                                     <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
@@ -341,7 +341,7 @@
                                             <span class="text-amber-300 text-xl">&#9733;</span>
                                         </div>
                                         <h2 class="text-xl font-bold mb-2 text-yellow text-center">Zaynulia Afifa</h2>
-                                        <p class="text-yellow text-center">Never fails to impress with their incredible flavors and top-notch quality.</p>
+                                        <p class="text-yellow text-center font-semibold">Never fails to impress with their incredible flavors and top-notch quality.</p>
                                     </div>
                                 </div>
                             </div>

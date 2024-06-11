@@ -69,7 +69,7 @@
         </div>
 
         <!-- 2 best seller section -->
-        <div class="flex flex-col items-center 2xl:mt-20 space-y-10">
+        <div class="flex flex-col items-center mt-40 2xl:mt-20 space-y-10">
                 <a class="text-hijau font-bold tracking-wider text-3xl 2xl:text-6xl uppercase">Best seller</a>
                 <div class="group swiper-container">
                     <div class="swiper-wrapper py-36 gap-24">

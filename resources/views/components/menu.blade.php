@@ -47,8 +47,8 @@ $product = App\Models\Product::all()
                 </a>
             </div>
         </div>
-            <div class="mt-24 sm:-mt-32 md:-mt-36 xl:-mt-44 xl:mr-40  hidden sm:block">
-                <img src="{{ asset('storage/images/menupic.png') }}" alt="ellipse" class="w-[600px] md:w-[800px] xl:w-[1200px] hover:underline"/>
+            <div class="mt-24 sm:-mt-32 md:-mt-36 xl:-mt-40 xl:mr-40  hidden sm:block">
+                <img src="{{ asset('storage/images/menupic.png') }}" alt="ellipse" class="w-[600px] md:w-[800px] xl:w-[1000px] hover:underline"/>
             </div>
     </section>
 

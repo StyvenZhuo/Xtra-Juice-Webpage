@@ -60,7 +60,7 @@
                 </div>
                 <div class="flex items-center justify-end">
                     <button class="text-base md:text-xl tracking-wider my-4 border-b-5 border-r-5 b-600 rounded-full border-4 ring ring-hijau bg-hijau text-white box-border h-10 w-20 md:h-12 md:w-36 border-transparent animate-border text-blue-500 font-semibold rounded-lg hover:bg-blue-100 transition duration-300">
-                        Explore
+                        Submit
                     </button>
                 </div>
             </form>

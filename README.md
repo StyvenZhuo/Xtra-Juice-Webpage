@@ -1,4 +1,4 @@
-<p align="center"><iframe src="https://jumpshare.com/embed/h4SdaOT7ClLF7JUVZ9dY" alt="Xtra-Juice Logo" frameborder="0" width="640" height="452" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></p>
+![Logo](./public/logo-xtrajuice.svg)
 
 
 ## About Project

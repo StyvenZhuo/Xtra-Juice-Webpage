@@ -195,11 +195,30 @@
                     </div>
                 </div>
 
+        <!-- 3 -->
+        <section>
+            <div class="container mx-auto mt-96">
+                <div class="text-center justify-center text-3xl font-bold text-hijau tracking-wider">
+                    <h1 class="">Owner Xtra-Juice</h1>
+                </div>
+                <div class="container sm:flex mt-16 lg:mt-20">
+                    <img src="{{ asset('storage/images/Owner.png') }}" alt="owner" class="h-[180px] md:h-[360px] hover:underline mx-auto xl:ml-36"/>
+                        <div class=" ml-2 lg:ml-8 text-center sm:text-left sm:ml-6 text-hijau mt-3 sm:mt-12 md:mt-36 xl:mt-40">
+                            <h1 class="font-bold text-2xl sm:text-4xl md:text-5xl tracking-widen">Pak Aga</h1>
+                            <h1 class="font-semibold mt-1 xl:mt-2 text-hijau text-xl sm:text-3xl md:text-4xl">pemilik xtrajuice</h1>
+                            <p class="text-xs sm:text-base md:text-xl mt-4 lg:mr-36">Pemilik stand jus buah "Xtra Juice" yang merupakan sebuah usaha minuman yang berlokasi di kantin Universitas Internasioanal Batam. UMKM ini berdiri pada tahun 2016 dan sudah beroperasi selama 18 tahun.  Stand Jus Buah "Xtra Juice" ini menyediakan beragam Jus dengan 16 pilihan buah dan sayur yang segar.</p>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+
+
             <!-- 4 review section -->
             <div class="flex flex-col items-center xl:h-relative overflow-hidden space-y-10 my-14 py-28 2xl:mt-4 2xl:py-36">
                     <a class="text-hijau font-bold tracking-wider text-3xl 2xl:text-6xl uppercase">Review</a>
                     <div class="group swiper-container">
-                        <div class="swiper-wrapper py-24 xl:py-36 gap-[1000px] sm:gap-[800px] lg:gap-[650px] xl:gap-[550px]">
+                        <div class="swiper-wrapper py-24 xl:py-36 gap-[1000px] sm:gap-[800px] lg:gap-[650px] xl:gap-[410px]">
                             <div class="swiper-slide flex justify-center gap-10 xl:gap-24">
                                     <!-- Card 1 -->
                                     <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
@@ -274,7 +293,7 @@
                             </div>
                                 <div class="swiper-slide flex justify-center gap-10 sm:gap-24 xl:gap-48">
                                     <!-- Card 1 -->
-                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center  mx-12">
+                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center ">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
                                         <img src="{{ asset('storage/images/6.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person4">
                                         <div class="flex justify-center mb-4">
@@ -288,7 +307,7 @@
                                         <p class="text-yellow text-center font-semibold">Fresh flavors, unbeatable quality, and exceptional service!</p>
                                     </div>
                                     <!-- Card 2 -->
-                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
+                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
                                         <img src="{{ asset('storage/images/9.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person5">
                                         <div class="flex justify-center mb-4">
@@ -302,7 +321,7 @@
                                         <p class="text-yellow text-center font-semibold">Consistently delicious juices and impeccable service.</p>
                                     </div>
                                     <!-- Card 3 -->
-                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
+                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
                                         <img src="{{ asset('storage/images/12.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person6">
                                         <div class="flex justify-center mb-4">
@@ -316,7 +335,7 @@
                                         <p class="text-yellow text-center font-semibold">Never fails to impress with their incredible flavors and top-notch quality.</p>
                                     </div>
                                     <!-- Card 4 -->
-                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
+                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
                                         <img src="{{ asset('storage/images/11.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person3">
                                         <div class="flex justify-center mb-4">
@@ -330,7 +349,7 @@
                                         <p class="text-yellow text-center font-semibold">Never fails to impress with their incredible flavors and top-notch quality.</p>
                                     </div>
                                     <!-- Card 5 -->
-                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center mx-12">
+                                    <div class="bg-hijau p-6 rounded-lg shadow-md w-64 flex-shrink-0 items-center">
                                         <div class="bg-green-700 rounded-full h-[80px] w-[80px] mb-4"></div>
                                         <img src="{{ asset('storage/images/10.png') }}" class="h-[20px] w-[20px] md:h-[100px] md:w-[100px] rounded-full mx-auto -mt-28" alt="person3">
                                         <div class="flex justify-center mb-4">

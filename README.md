@@ -1,4 +1,6 @@
-![Logo](./public/logo-xtrajuice.svg)
+<div align="center">
+  <img src="./public/logo-xtrajuice.svg" alt="X-Tra Juice Logo" width="200"/>
+</div>
 
 
 ## About Project

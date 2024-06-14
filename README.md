@@ -11,6 +11,8 @@ The landing page website for X-Tra Juice is designed to support business develop
 
 Technologies used: Figma, Laravel with Tailwind CSS, Xampp & PhpmyAdmin
 
+[Website Walkthrough](https://drive.google.com/file/d/1xkCTVe4ieShSuhi9sf3DZVCQ2D4v3CWe/view?usp=sharing)
+
 
 ## About Business
 
@@ -32,7 +34,7 @@ Xtra Juice Fruit Stand is a beverage business located in the cafeteria of the Ba
 
 ## Precaution
 
-In order to view images in this website. please download [this following folder]() and put them in **Public > Storage** Folder.
+In order to view images in this website. please download [this following folder](https://drive.google.com/drive/folders/1gfrEkNQc7pGCDci_6tK9CFr-SNaMSrfz?hl=id) and put them in **Public > Storage** Folder.
 
 
 ## Usage

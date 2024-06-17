@@ -197,7 +197,7 @@
 
         <!-- 3 -->
         <section>
-            <div class="container mx-auto mt-96">
+            <div class="container mx-auto mt-52">
                 <div class="text-center justify-center text-3xl font-bold text-hijau tracking-wider">
                     <h1 class="">Owner Xtra-Juice</h1>
                 </div>
@@ -215,7 +215,7 @@
 
 
             <!-- 4 review section -->
-            <div class="flex flex-col items-center xl:h-relative overflow-hidden space-y-10 my-14 py-28 2xl:mt-4 2xl:py-36">
+            <div class="flex flex-col items-center xl:h-relative overflow-hidden space-y-10 my-14 py-36 2xl:mt-4 2xl:py-36">
                     <a class="text-hijau font-bold tracking-wider text-3xl 2xl:text-6xl uppercase">Review</a>
                     <div class="group swiper-container">
                         <div class="swiper-wrapper py-24 xl:py-36 gap-[1000px] sm:gap-[800px] lg:gap-[650px] xl:gap-[410px]">
